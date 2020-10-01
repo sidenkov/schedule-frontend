@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "pug": "^3.0.0",
+    "sass": "^1.26.11"
+  },
+  "dependencies": {
+    "parse": "^2.16.0"
+  }
+}

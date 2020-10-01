@@ -1,0 +1,63 @@
+mixin para(para, day)
+    .para.top-border 
+        .paraType(id=`type-day${day}-para${para}`) -
+        .paraName(id=`name-day${day}-para${para}`) -
+
+mixin day(num)
+    .day
+        case num
+            when 1
+                .dayHeader Понедельник
+            when 2
+                .dayHeader Вторник
+            when 3
+                .dayHeader Среда
+            when 4
+                .dayHeader Четверг
+            when 5
+                .dayHeader Пятница
+            when 6
+                .dayHeader Суббота
+            default
+                .dayHeader День
+        +para(1, num)
+        +para(2, num)
+        +para(3, num)
+        +para(4, num)
+        +para(5, num)
+            
+        //- .para(id=`para-day${dayNum}-para1`) 
+        //-     .paraType Лек.
+        //-     | Микропроц. Системы
+        //- .para(id=`day${dayNum}-para2`) 
+        //-     .paraType Лаб.
+        //-     | Микропроц. Системы
+        //- .para(id=`day${dayNum}-para3`) 
+        //-     .paraType КСР
+        //-     | Микропроц. Системы
+        //- .para(id=`day${dayNum}-para4`) 
+        //-     .paraType КПР
+        //-     | Микропроц. Системы
+        //- .para(id=`day${dayNum}-para5`) 
+        //-     .paraType КРБ
+        //-     | Микропроц. Системы
+
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="icon", href="/img/icon.png")
+        link(rel="stylesheet", href="./styles.scss")
+        link(rel="stylesheet", href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap")
+        script(src="./main.js")
+        title Schedule   
+    body
+        h1 Расписание
+        .week
+            +day(1)
+            +day(2)
+            +day(3)
+            +day(4)
+            +day(5)
+            +day(6)
