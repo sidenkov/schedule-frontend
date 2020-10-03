@@ -25,22 +25,7 @@ mixin day(num)
         +para(3, num)
         +para(4, num)
         +para(5, num)
-            
-        //- .para(id=`para-day${dayNum}-para1`) 
-        //-     .paraType Лек.
-        //-     | Микропроц. Системы
-        //- .para(id=`day${dayNum}-para2`) 
-        //-     .paraType Лаб.
-        //-     | Микропроц. Системы
-        //- .para(id=`day${dayNum}-para3`) 
-        //-     .paraType КСР
-        //-     | Микропроц. Системы
-        //- .para(id=`day${dayNum}-para4`) 
-        //-     .paraType КПР
-        //-     | Микропроц. Системы
-        //- .para(id=`day${dayNum}-para5`) 
-        //-     .paraType КРБ
-        //-     | Микропроц. Системы
+
 
 doctype html
 html(lang="en")
@@ -53,11 +38,16 @@ html(lang="en")
         script(src="./main.js")
         title Schedule   
     body
-        h1 Расписание
-        .week
-            +day(1)
-            +day(2)
-            +day(3)
-            +day(4)
-            +day(5)
-            +day(6)
+        header
+            .width-wrapper 
+                h1 Расписание
+        .width-wrapper 
+            .week
+                +day(1)
+                +day(2)
+                +day(3)
+                +day(4)
+                +day(5)
+                +day(6)
+            h2(id="week-status") Неделя Четная
+            .change-week(id="change-week-button") Сменить

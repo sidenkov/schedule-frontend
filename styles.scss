@@ -1,22 +1,37 @@
+$light-gray: #eeeeee;
+$dark-gray: #cccccc;
+
 body {
     font-family: 'Open Sans', sans-serif;
+    margin: 0;
 }
 
 h1 {
+    margin: 0 16px;
+    color: $light-gray;
+}
+
+h2 {
     margin: 16px;
+}
+
+header {
+    margin: 0;
+    background-color: #333333;
+    padding: 16px;
 }
 
 .day {
     width: 250px;
     min-width: 250px;
-    background: #eeeeee;
+    background: $light-gray;
     border-radius: 8px;
 }
 
 .dayHeader {
     padding: 8px;
     border-radius: 8px 8px 0 0;
-    background: #cccccc;
+    background: $dark-gray;
 }
 
 .para {
@@ -37,12 +52,40 @@ h1 {
 }
 
 .top-border {
-    border-top: 1px solid #cccccc;
+    border-top: 1px solid $dark-gray;
 }
 
 .week {
-    margin: 0 16px;
+    margin: 16px;
     display: flex;
     gap: 16px;
     flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.change-week {
+    display: inline-block;
+    margin-left: 16px;
+    padding: 8px;
+    border-radius: 4px;
+    background-color: $light-gray;
+
+    &:hover {
+        background-color: $dark-gray;
+    }
+
+    &:active {
+        background-color: $dark-gray;
+    }
+}
+
+.width-wrapper {
+    // flex: 0;
+    width: 1612px;
+    display: block;
+    margin: 0 auto;
+    // flex-direction: column;
+    // justify-content: space-between;
+    // align-items: center;
+    // margin: 0 auto;
 }

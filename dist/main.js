@@ -76986,6 +76986,14 @@ module.exports = Parse;
 module.exports = require('./lib/node/Parse.js');
 
 },{"./lib/node/Parse.js":"node_modules/parse/lib/node/Parse.js"}],"main.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.clearSchedule = clearSchedule;
+exports.changeWeek = changeWeek;
+
 var Parse = require('parse/node');
 
 Parse.serverURL = 'https://schedule.back4app.io'; // This is your Server URL
@@ -76993,25 +77001,87 @@ Parse.serverURL = 'https://schedule.back4app.io'; // This is your Server URL
 Parse.initialize('TmOSA86376clw7ZRIl5YSuSQbrh6Ty5JjZbFxCLP', // This is your Application ID
 'lUECwfyAVQSBo8NfVo2k2jrxGzYFVYGpAFghIQhY' // This is your Javascript key
 );
+
+window.onload = function () {
+  if (typeof document !== 'undefined') {
+    document.getElementById("change-week-button").addEventListener("click", changeWeek);
+  }
+};
+
 var schedule = Parse.Object.extend('schedule');
 var query = new Parse.Query(schedule);
-query.equalTo("day", 4);
-query.equalTo("weekEven", false);
-var res = query.find().then(function (results) {
-  if (typeof document !== 'undefined') {
-    for (var i = 0; i < results.length; i++) {
-      console.log(results[i].get('name'));
-      var num = results[i].get('num');
-      document.getElementById("para".concat(num + 1)).innerText = results[i].get('name');
-    }
 
-    console.log("".concat(JSON.stringify(results)));
-    console.log('schedule found', results);
+function checkWeek() {
+  // 27 days between 7.09 and 3.10. 7.10 was even, 3.10 is odd, 5.10 is even.
+  var oneDay = 24 * 60 * 60 * 1000;
+  var firstWeekEven = true;
+  var schedFirstDay = new Date(2020, 8, 7); // console.log(schedFirstDay.toLocaleDateString());
+
+  var today = new Date(); // console.log(today.toLocaleDateString());
+  // var today = new Date(2020, 9, 3); // console.log(today.toLocaleDateString());
+
+  var weeks = Math.floor((today - schedFirstDay) / oneDay / 7);
+
+  if (Math.floor(weeks % 2) == 0) {
+    console.log("Week is even");
+    return true;
+  } else {
+    console.log("Week is odd");
+    return false;
   }
-}, function (error) {
-  if (typeof document !== 'undefined') document.write("Error while fetching schedule: ".concat(JSON.stringify(error)));
-  console.error('Error while fetching schedule', error);
-});
+}
+
+function updateSchedule() {
+  query.equalTo("weekEven", isWeekEven);
+  query.find().then(function (results) {
+    if (typeof document !== 'undefined') {
+      // console.log(`${JSON.stringify(results)}`);
+      for (var i = 0; i < results.length; i++) {
+        // console.log(results[i].get('name'));
+        var num = results[i].get('num');
+        var day = results[i].get('day'); // console.log(`name-day${day}-para${num+1}`);
+        // console.log(`type-day${day}-para${num+1}`);
+
+        document.getElementById("name-day".concat(day, "-para").concat(num + 1)).innerText = results[i].get('name');
+        document.getElementById("type-day".concat(day, "-para").concat(num + 1)).innerText = results[i].get('type');
+      }
+    }
+  }, function (error) {
+    if (typeof document !== 'undefined') document.write("Error while fetching schedule: ".concat(JSON.stringify(error)));
+    console.error('Error while fetching schedule', error);
+  });
+}
+
+function clearSchedule() {
+  var paraTypes = document.getElementsByClassName("paraType");
+  var paraNames = document.getElementsByClassName("paraName");
+  Array.from(paraTypes).forEach(function (paraType) {
+    paraType.innerText = "-";
+  });
+  Array.from(paraNames).forEach(function (paraName) {
+    paraName.innerText = "-";
+  });
+}
+
+function changeWeek() {
+  isWeekEven = !isWeekEven;
+  console.log(isWeekEven);
+  var weekStatus = document.getElementById("week-status");
+  clearSchedule();
+
+  if (isWeekEven) {
+    weekStatus.innerText = "Неделя Четная";
+    console.log("Неделя Четная");
+  } else {
+    weekStatus.innerText = "Неделя Нечетная";
+    console.log("Неделя Нечетная");
+  }
+
+  updateSchedule();
+}
+
+var isWeekEven = checkWeek();
+updateSchedule();
 },{"parse/node":"node_modules/parse/node.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
@@ -77040,7 +77110,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52383" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59834" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
