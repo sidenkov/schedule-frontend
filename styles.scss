@@ -2,6 +2,7 @@ $light-gray: #eeeeee;
 $dark-gray: #cccccc;
 
 body {
+    font-size: 14px;
     font-family: 'Open Sans', sans-serif;
     margin: 0;
 }
@@ -9,10 +10,6 @@ body {
 h1 {
     margin: 0 16px;
     color: $light-gray;
-}
-
-h2 {
-    margin: 16px;
 }
 
 header {
@@ -25,29 +22,53 @@ header {
     width: 250px;
     min-width: 250px;
     background: $light-gray;
+    border: 1px solid $dark-gray;
     border-radius: 8px;
 }
 
 .dayHeader {
-    padding: 8px;
-    border-radius: 8px 8px 0 0;
+    padding: 8px 16px;
+    border-radius: 6px 6px 0 0;
     background: $dark-gray;
 }
 
 .para {
     display: flex;
-    flex-direction: row;
-    padding: 16px 8px;
-    line-height: 20px;
+    flex-direction: column;
+    padding: 16px;
+    gap: 4px;
+
+    .paraLine {
+        display: flex;
+        flex-direction: row;
+        height: 18px;
+    }
 
     .paraType {
-        margin: 8px;
-        width: 30px;
+        width: 36px;
+        margin-right: 8px;
     }
 
     .paraName {
-        margin: 8px 0;
-        line-height: 20px;
+        text-overflow: ellipsis;
+        font-weight: 700;
+        margin: 0;
+        line-height: 18px;
+    }
+
+    .paraTime {
+        width: 36px;
+        margin-right: 8px;
+    }
+
+    .teacherClassroomWrapper {
+        display: flex;
+        flex: 1;
+        justify-content: space-between;
+    }
+
+    .paraClassroom {
+        display: inline;
     }
 }
 
@@ -63,12 +84,22 @@ header {
     flex-wrap: wrap;
 }
 
+.weekStatus {
+    display: inline-block;
+    margin: 16px 0 16px 16px;
+    width: 200px;
+    font-size: 21px;
+    font-weight: bold;
+}
+
 .change-week {
     display: inline-block;
-    margin-left: 16px;
+    margin: 14px 16px;
     padding: 8px;
     border-radius: 4px;
     background-color: $light-gray;
+    font-size: 16px;
+    font-weight: 600;
 
     &:hover {
         background-color: $dark-gray;
@@ -80,12 +111,6 @@ header {
 }
 
 .width-wrapper {
-    // flex: 0;
-    width: 1612px;
-    display: block;
+    width: 1626px;
     margin: 0 auto;
-    // flex-direction: column;
-    // justify-content: space-between;
-    // align-items: center;
-    // margin: 0 auto;
 }

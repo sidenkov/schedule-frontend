@@ -1,7 +1,14 @@
 mixin para(para, day)
-    .para.top-border 
-        .paraType(id=`type-day${day}-para${para}`) -
-        .paraName(id=`name-day${day}-para${para}`) -
+    .para.top-border
+        .paraLine
+            .paraType(id=`type-day${day}-para${para}`) 
+            .paraName(id=`name-day${day}-para${para}`) 
+        .paraLine
+            .paraTime(id=`time-day${day}-para${para}`) 
+            .teacherClassroomWrapper
+                .paraTeacher(id=`teacher-day${day}-para${para}`) 
+                .paraClassroom(id=`classroom-day${day}-para${para}`) 
+                
 
 mixin day(num)
     .day
@@ -49,5 +56,5 @@ html(lang="en")
                 +day(4)
                 +day(5)
                 +day(6)
-            h2(id="week-status") Неделя Четная
+            .weekStatus(id="week-status") Неделя 
             .change-week(id="change-week-button") Сменить

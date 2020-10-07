@@ -10,7 +10,11 @@ window.onload=function() {
     if (typeof document !== 'undefined') {
         document.getElementById("change-week-button").addEventListener("click", changeWeek);
     }
+    changeWeekDisplay();
 }
+
+var isWeekEven = checkWeek();
+
 
 const schedule = Parse.Object.extend('schedule');
 const query = new Parse.Query(schedule);
@@ -26,10 +30,10 @@ function checkWeek() {
     const weeks = Math.floor( (today - schedFirstDay) / oneDay / 7);
     
     if (Math.floor(weeks%2) == 0) {
-        console.log("Week is even");
+        // console.log("Week is even");
         return true;
     } else {
-        console.log("Week is odd");
+        // console.log("Week is odd");
         return false;
     }
 }
@@ -43,15 +47,28 @@ function updateSchedule() {
 
                 for (let i = 0; i < results.length; i++) {
                     // console.log(results[i].get('name'));
+                    
                     const num = results[i].get('num');
                     const day = results[i].get('day');
+                    let time = "" 
+                    switch(num) {
+                        case 0: time = "8:00"; break;
+                        case 1: time = "9:45"; break;
+                        case 2: time = "11:30"; break;
+                        case 3: time = "13:55"; break;
+                        case 4: time = "15:40"; break;
+                        default: time = "";
+                    }
+                                        
                     // console.log(`name-day${day}-para${num+1}`);
                     // console.log(`type-day${day}-para${num+1}`);
 
                     document.getElementById(`name-day${day}-para${num+1}`).innerText = results[i].get('name');
                     document.getElementById(`type-day${day}-para${num+1}`).innerText = results[i].get('type');
+                    document.getElementById(`time-day${day}-para${num+1}`).innerText = time;
+                    document.getElementById(`teacher-day${day}-para${num+1}`).innerText = results[i].get('teacher');
+                    document.getElementById(`classroom-day${day}-para${num+1}`).innerText = results[i].get('place');
                 }
-
             }
         }, 
         (error) => {
@@ -62,35 +79,41 @@ function updateSchedule() {
 }
 
 export function clearSchedule() {
-    const paraTypes = document.getElementsByClassName("paraType");
-    const paraNames = document.getElementsByClassName("paraName");
+    let toClear = [];
+    
+    toClear.push( document.getElementsByClassName("paraType") );
+    toClear.push( document.getElementsByClassName("paraName") );
+    toClear.push( document.getElementsByClassName("paraTime") );
+    toClear.push( document.getElementsByClassName("paraTeacher") );
+    toClear.push( document.getElementsByClassName("paraClassroom") );
 
-    Array.from(paraTypes).forEach((paraType) => {
-        paraType.innerText = "-"        
-    });
-    Array.from(paraNames).forEach((paraName) => {
-        paraName.innerText = "-"        
-    });
+    for (const arrays of toClear) {
+        Array.from(arrays).forEach((el) => {
+            el.innerText = " "        
+        });
+    }
 }
 
 export function changeWeek() {
     isWeekEven = !isWeekEven;
-    console.log(isWeekEven);
-    const weekStatus = document.getElementById("week-status");
+    // console.log(isWeekEven);
 
     clearSchedule();
-    
-    if (isWeekEven) {
-        weekStatus.innerText = "Неделя Четная";
-        console.log("Неделя Четная");
-    } else {
-        weekStatus.innerText = "Неделя Нечетная";
-        console.log("Неделя Нечетная");
-    }
-
+    changeWeekDisplay()
     updateSchedule();
 }
 
-var isWeekEven = checkWeek();
+export function changeWeekDisplay() {
+    const weekStatus = document.getElementById("week-status");
+
+    if (isWeekEven) {
+        weekStatus.innerText = "Неделя Четная";
+        // console.log("Неделя Четная");
+    } else {
+        weekStatus.innerText = "Неделя Нечетная";
+        // console.log("Неделя Нечетная");
+    }
+}
+
 
 updateSchedule();

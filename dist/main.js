@@ -646,7 +646,7 @@ ParseError.FILE_READ_ERROR = 601;
 ParseError.X_DOMAIN_REQUEST = 602;
 var _default = ParseError;
 exports.default = _default;
-},{}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/process/browser.js":[function(require,module,exports) {
+},{}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/process/browser.js":[function(require,module,exports) {
 
 // shim for using process in browser
 var process = module.exports = {}; // cached from whatever global is present so that test runners that stub it
@@ -1390,7 +1390,7 @@ module.exports = {
   }
 
 };
-},{"process":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/process/browser.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/stream-http/lib/capability.js":[function(require,module,exports) {
+},{"process":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/process/browser.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/stream-http/lib/capability.js":[function(require,module,exports) {
 var global = arguments[3];
 exports.fetch = isFunction(global.fetch) && isFunction(global.ReadableStream)
 
@@ -1466,7 +1466,7 @@ function isFunction (value) {
 
 xhr = null // Help gc
 
-},{}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js":[function(require,module,exports) {
+},{}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js":[function(require,module,exports) {
 if (typeof Object.create === 'function') {
   // implementation from standard node.js 'util' module
   module.exports = function inherits(ctor, superCtor) {
@@ -1495,7 +1495,7 @@ if (typeof Object.create === 'function') {
   }
 }
 
-},{}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/process-nextick-args/index.js":[function(require,module,exports) {
+},{}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/process-nextick-args/index.js":[function(require,module,exports) {
 var process = require("process");
 'use strict';
 
@@ -1543,14 +1543,14 @@ function nextTick(fn, arg1, arg2, arg3) {
 }
 
 
-},{"process":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/process/browser.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/isarray/index.js":[function(require,module,exports) {
+},{"process":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/process/browser.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/isarray/index.js":[function(require,module,exports) {
 var toString = {}.toString;
 
 module.exports = Array.isArray || function (arr) {
   return toString.call(arr) == '[object Array]';
 };
 
-},{}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/events/events.js":[function(require,module,exports) {
+},{}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/events/events.js":[function(require,module,exports) {
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -1990,10 +1990,10 @@ function once(emitter, name) {
     emitter.once(name, eventListener);
   });
 }
-},{}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/lib/internal/streams/stream-browser.js":[function(require,module,exports) {
+},{}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/lib/internal/streams/stream-browser.js":[function(require,module,exports) {
 module.exports = require('events').EventEmitter;
 
-},{"events":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/events/events.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/base64-js/index.js":[function(require,module,exports) {
+},{"events":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/events/events.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/base64-js/index.js":[function(require,module,exports) {
 'use strict'
 
 exports.byteLength = byteLength
@@ -2147,7 +2147,7 @@ function fromByteArray (uint8) {
   return parts.join('')
 }
 
-},{}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/ieee754/index.js":[function(require,module,exports) {
+},{}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/ieee754/index.js":[function(require,module,exports) {
 exports.read = function (buffer, offset, isLE, mLen, nBytes) {
   var e, m
   var eLen = (nBytes * 8) - mLen - 1
@@ -2233,7 +2233,7 @@ exports.write = function (buffer, value, offset, isLE, mLen, nBytes) {
   buffer[offset + i - d] |= s * 128
 }
 
-},{}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/buffer/index.js":[function(require,module,exports) {
+},{}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/buffer/index.js":[function(require,module,exports) {
 
 var global = arguments[3];
 /*!
@@ -4026,7 +4026,7 @@ function isnan (val) {
   return val !== val // eslint-disable-line no-self-compare
 }
 
-},{"base64-js":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/base64-js/index.js","ieee754":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/ieee754/index.js","isarray":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/isarray/index.js","buffer":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/buffer/index.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js":[function(require,module,exports) {
+},{"base64-js":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/base64-js/index.js","ieee754":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/ieee754/index.js","isarray":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/isarray/index.js","buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/buffer/index.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js":[function(require,module,exports) {
 
 /* eslint-disable node/no-deprecated-api */
 var buffer = require('buffer')
@@ -4091,7 +4091,7 @@ SafeBuffer.allocUnsafeSlow = function (size) {
   return buffer.SlowBuffer(size)
 }
 
-},{"buffer":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/buffer/index.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/core-util-is/lib/util.js":[function(require,module,exports) {
+},{"buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/buffer/index.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/core-util-is/lib/util.js":[function(require,module,exports) {
 var Buffer = require("buffer").Buffer;
 // Copyright Joyent, Inc. and other Node contributors.
 //
@@ -4201,9 +4201,9 @@ function objectToString(o) {
   return Object.prototype.toString.call(o);
 }
 
-},{"buffer":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/buffer/index.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/src/builtins/_empty.js":[function(require,module,exports) {
+},{"buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/buffer/index.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/src/builtins/_empty.js":[function(require,module,exports) {
 
-},{}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/lib/internal/streams/BufferList.js":[function(require,module,exports) {
+},{}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/lib/internal/streams/BufferList.js":[function(require,module,exports) {
 
 'use strict';
 
@@ -4284,7 +4284,7 @@ if (util && util.inspect && util.inspect.custom) {
     return this.constructor.name + ' ' + obj;
   };
 }
-},{"safe-buffer":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js","util":"../../../AppData/Roaming/npm/node_modules/parcel/src/builtins/_empty.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/lib/internal/streams/destroy.js":[function(require,module,exports) {
+},{"safe-buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js","util":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/src/builtins/_empty.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/lib/internal/streams/destroy.js":[function(require,module,exports) {
 'use strict';
 
 /*<replacement>*/
@@ -4359,7 +4359,7 @@ module.exports = {
   destroy: destroy,
   undestroy: undestroy
 };
-},{"process-nextick-args":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/process-nextick-args/index.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/util-deprecate/browser.js":[function(require,module,exports) {
+},{"process-nextick-args":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/process-nextick-args/index.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/util-deprecate/browser.js":[function(require,module,exports) {
 var global = arguments[3];
 
 /**
@@ -4429,7 +4429,7 @@ function config (name) {
   return String(val).toLowerCase() === 'true';
 }
 
-},{}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/lib/_stream_writable.js":[function(require,module,exports) {
+},{}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/lib/_stream_writable.js":[function(require,module,exports) {
 var process = require("process");
 
 var global = arguments[3];
@@ -5108,7 +5108,7 @@ Writable.prototype._destroy = function (err, cb) {
   this.end();
   cb(err);
 };
-},{"process-nextick-args":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/process-nextick-args/index.js","core-util-is":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/core-util-is/lib/util.js","inherits":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js","util-deprecate":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/util-deprecate/browser.js","./internal/streams/stream":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/lib/internal/streams/stream-browser.js","safe-buffer":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js","./internal/streams/destroy":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/lib/internal/streams/destroy.js","./_stream_duplex":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/lib/_stream_duplex.js","process":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/process/browser.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/lib/_stream_duplex.js":[function(require,module,exports) {
+},{"process-nextick-args":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/process-nextick-args/index.js","core-util-is":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/core-util-is/lib/util.js","inherits":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js","util-deprecate":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/util-deprecate/browser.js","./internal/streams/stream":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/lib/internal/streams/stream-browser.js","safe-buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js","./internal/streams/destroy":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/lib/internal/streams/destroy.js","./_stream_duplex":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/lib/_stream_duplex.js","process":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/process/browser.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/lib/_stream_duplex.js":[function(require,module,exports) {
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -5240,7 +5240,7 @@ Duplex.prototype._destroy = function (err, cb) {
 
   pna.nextTick(cb, err);
 };
-},{"process-nextick-args":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/process-nextick-args/index.js","core-util-is":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/core-util-is/lib/util.js","inherits":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js","./_stream_readable":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/lib/_stream_readable.js","./_stream_writable":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/lib/_stream_writable.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/string_decoder/lib/string_decoder.js":[function(require,module,exports) {
+},{"process-nextick-args":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/process-nextick-args/index.js","core-util-is":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/core-util-is/lib/util.js","inherits":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js","./_stream_readable":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/lib/_stream_readable.js","./_stream_writable":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/lib/_stream_writable.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/string_decoder/lib/string_decoder.js":[function(require,module,exports) {
 
 // Copyright Joyent, Inc. and other Node contributors.
 //
@@ -5538,7 +5538,7 @@ function simpleWrite(buf) {
 function simpleEnd(buf) {
   return buf && buf.length ? this.write(buf) : '';
 }
-},{"safe-buffer":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/lib/_stream_readable.js":[function(require,module,exports) {
+},{"safe-buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/lib/_stream_readable.js":[function(require,module,exports) {
 
 var global = arguments[3];
 var process = require("process");
@@ -6561,7 +6561,7 @@ function indexOf(xs, x) {
   }
   return -1;
 }
-},{"process-nextick-args":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/process-nextick-args/index.js","isarray":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/isarray/index.js","events":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/events/events.js","./internal/streams/stream":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/lib/internal/streams/stream-browser.js","safe-buffer":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js","core-util-is":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/core-util-is/lib/util.js","inherits":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js","util":"../../../AppData/Roaming/npm/node_modules/parcel/src/builtins/_empty.js","./internal/streams/BufferList":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/lib/internal/streams/BufferList.js","./internal/streams/destroy":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/lib/internal/streams/destroy.js","./_stream_duplex":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/lib/_stream_duplex.js","string_decoder/":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/string_decoder/lib/string_decoder.js","process":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/process/browser.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/lib/_stream_transform.js":[function(require,module,exports) {
+},{"process-nextick-args":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/process-nextick-args/index.js","isarray":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/isarray/index.js","events":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/events/events.js","./internal/streams/stream":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/lib/internal/streams/stream-browser.js","safe-buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js","core-util-is":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/core-util-is/lib/util.js","inherits":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js","util":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/src/builtins/_empty.js","./internal/streams/BufferList":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/lib/internal/streams/BufferList.js","./internal/streams/destroy":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/lib/internal/streams/destroy.js","./_stream_duplex":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/lib/_stream_duplex.js","string_decoder/":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/string_decoder/lib/string_decoder.js","process":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/process/browser.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/lib/_stream_transform.js":[function(require,module,exports) {
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -6776,7 +6776,7 @@ function done(stream, er, data) {
 
   return stream.push(null);
 }
-},{"./_stream_duplex":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/lib/_stream_duplex.js","core-util-is":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/core-util-is/lib/util.js","inherits":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/lib/_stream_passthrough.js":[function(require,module,exports) {
+},{"./_stream_duplex":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/lib/_stream_duplex.js","core-util-is":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/core-util-is/lib/util.js","inherits":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/lib/_stream_passthrough.js":[function(require,module,exports) {
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -6824,7 +6824,7 @@ function PassThrough(options) {
 PassThrough.prototype._transform = function (chunk, encoding, cb) {
   cb(null, chunk);
 };
-},{"./_stream_transform":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/lib/_stream_transform.js","core-util-is":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/core-util-is/lib/util.js","inherits":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/readable-browser.js":[function(require,module,exports) {
+},{"./_stream_transform":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/lib/_stream_transform.js","core-util-is":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/core-util-is/lib/util.js","inherits":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/readable-browser.js":[function(require,module,exports) {
 exports = module.exports = require('./lib/_stream_readable.js');
 exports.Stream = exports;
 exports.Readable = exports;
@@ -6833,7 +6833,7 @@ exports.Duplex = require('./lib/_stream_duplex.js');
 exports.Transform = require('./lib/_stream_transform.js');
 exports.PassThrough = require('./lib/_stream_passthrough.js');
 
-},{"./lib/_stream_readable.js":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/lib/_stream_readable.js","./lib/_stream_writable.js":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/lib/_stream_writable.js","./lib/_stream_duplex.js":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/lib/_stream_duplex.js","./lib/_stream_transform.js":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/lib/_stream_transform.js","./lib/_stream_passthrough.js":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/lib/_stream_passthrough.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/stream-http/lib/response.js":[function(require,module,exports) {
+},{"./lib/_stream_readable.js":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/lib/_stream_readable.js","./lib/_stream_writable.js":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/lib/_stream_writable.js","./lib/_stream_duplex.js":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/lib/_stream_duplex.js","./lib/_stream_transform.js":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/lib/_stream_transform.js","./lib/_stream_passthrough.js":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/lib/_stream_passthrough.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/stream-http/lib/response.js":[function(require,module,exports) {
 var process = require("process");
 var Buffer = require("buffer").Buffer;
 var global = arguments[3];
@@ -7062,7 +7062,7 @@ IncomingMessage.prototype._onXHRProgress = function () {
 	}
 }
 
-},{"./capability":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/stream-http/lib/capability.js","inherits":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js","readable-stream":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/readable-browser.js","process":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/process/browser.js","buffer":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/buffer/index.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/to-arraybuffer/index.js":[function(require,module,exports) {
+},{"./capability":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/stream-http/lib/capability.js","inherits":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js","readable-stream":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/readable-browser.js","process":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/process/browser.js","buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/buffer/index.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/to-arraybuffer/index.js":[function(require,module,exports) {
 
 var Buffer = require('buffer').Buffer
 
@@ -7092,7 +7092,7 @@ module.exports = function (buf) {
 	}
 }
 
-},{"buffer":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/buffer/index.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/stream-http/lib/request.js":[function(require,module,exports) {
+},{"buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/buffer/index.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/stream-http/lib/request.js":[function(require,module,exports) {
 var Buffer = require("buffer").Buffer;
 var global = arguments[3];
 var process = require("process");
@@ -7424,7 +7424,7 @@ var unsafeHeaders = [
 	'via'
 ]
 
-},{"./capability":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/stream-http/lib/capability.js","inherits":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js","./response":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/stream-http/lib/response.js","readable-stream":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/readable-browser.js","to-arraybuffer":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/to-arraybuffer/index.js","buffer":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/buffer/index.js","process":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/process/browser.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/xtend/immutable.js":[function(require,module,exports) {
+},{"./capability":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/stream-http/lib/capability.js","inherits":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js","./response":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/stream-http/lib/response.js","readable-stream":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/readable-browser.js","to-arraybuffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/to-arraybuffer/index.js","buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/buffer/index.js","process":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/process/browser.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/xtend/immutable.js":[function(require,module,exports) {
 module.exports = extend;
 var hasOwnProperty = Object.prototype.hasOwnProperty;
 
@@ -7443,7 +7443,7 @@ function extend() {
 
   return target;
 }
-},{}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/builtin-status-codes/browser.js":[function(require,module,exports) {
+},{}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/builtin-status-codes/browser.js":[function(require,module,exports) {
 module.exports = {
   "100": "Continue",
   "101": "Switching Protocols",
@@ -7509,7 +7509,7 @@ module.exports = {
   "511": "Network Authentication Required"
 }
 
-},{}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/node-libs-browser/node_modules/punycode/punycode.js":[function(require,module,exports) {
+},{}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/node-libs-browser/node_modules/punycode/punycode.js":[function(require,module,exports) {
 var global = arguments[3];
 var define;
 /*! https://mths.be/punycode v1.4.1 by @mathias */
@@ -8046,7 +8046,7 @@ var define;
 
 }(this));
 
-},{}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/url/util.js":[function(require,module,exports) {
+},{}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/url/util.js":[function(require,module,exports) {
 'use strict';
 
 module.exports = {
@@ -8064,7 +8064,7 @@ module.exports = {
   }
 };
 
-},{}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/querystring-es3/decode.js":[function(require,module,exports) {
+},{}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/querystring-es3/decode.js":[function(require,module,exports) {
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -8150,7 +8150,7 @@ module.exports = function (qs, sep, eq, options) {
 var isArray = Array.isArray || function (xs) {
   return Object.prototype.toString.call(xs) === '[object Array]';
 };
-},{}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/querystring-es3/encode.js":[function(require,module,exports) {
+},{}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/querystring-es3/encode.js":[function(require,module,exports) {
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -8239,12 +8239,12 @@ var objectKeys = Object.keys || function (obj) {
 
   return res;
 };
-},{}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/querystring-es3/index.js":[function(require,module,exports) {
+},{}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/querystring-es3/index.js":[function(require,module,exports) {
 'use strict';
 
 exports.decode = exports.parse = require('./decode');
 exports.encode = exports.stringify = require('./encode');
-},{"./decode":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/querystring-es3/decode.js","./encode":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/querystring-es3/encode.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/url/url.js":[function(require,module,exports) {
+},{"./decode":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/querystring-es3/decode.js","./encode":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/querystring-es3/encode.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/url/url.js":[function(require,module,exports) {
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -8978,7 +8978,7 @@ Url.prototype.parseHost = function() {
   if (host) this.hostname = host;
 };
 
-},{"punycode":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/node-libs-browser/node_modules/punycode/punycode.js","./util":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/url/util.js","querystring":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/querystring-es3/index.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/stream-http/index.js":[function(require,module,exports) {
+},{"punycode":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/node-libs-browser/node_modules/punycode/punycode.js","./util":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/url/util.js","querystring":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/querystring-es3/index.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/stream-http/index.js":[function(require,module,exports) {
 var global = arguments[3];
 var ClientRequest = require('./lib/request')
 var response = require('./lib/response')
@@ -9065,7 +9065,7 @@ http.METHODS = [
 	'UNLOCK',
 	'UNSUBSCRIBE'
 ]
-},{"./lib/request":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/stream-http/lib/request.js","./lib/response":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/stream-http/lib/response.js","xtend":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/xtend/immutable.js","builtin-status-codes":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/builtin-status-codes/browser.js","url":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/url/url.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/https-browserify/index.js":[function(require,module,exports) {
+},{"./lib/request":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/stream-http/lib/request.js","./lib/response":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/stream-http/lib/response.js","xtend":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/xtend/immutable.js","builtin-status-codes":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/builtin-status-codes/browser.js","url":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/url/url.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/https-browserify/index.js":[function(require,module,exports) {
 var http = require('http')
 var url = require('url')
 
@@ -9098,7 +9098,7 @@ function validateParams (params) {
   return params
 }
 
-},{"http":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/stream-http/index.js","url":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/url/url.js"}],"node_modules/parse/lib/node/ParseFile.js":[function(require,module,exports) {
+},{"http":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/stream-http/index.js","url":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/url/url.js"}],"node_modules/parse/lib/node/ParseFile.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -9806,7 +9806,7 @@ _CoreManager.default.setFileController(DefaultController);
 
 var _default = ParseFile;
 exports.default = _default;
-},{"./CoreManager":"node_modules/parse/lib/node/CoreManager.js","https":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/https-browserify/index.js","http":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/stream-http/index.js"}],"node_modules/parse/lib/node/arrayContainsObject.js":[function(require,module,exports) {
+},{"./CoreManager":"node_modules/parse/lib/node/CoreManager.js","https":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/https-browserify/index.js","http":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/stream-http/index.js"}],"node_modules/parse/lib/node/arrayContainsObject.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -21822,7 +21822,7 @@ function decode(value
 
   return copy;
 }
-},{"./ParseACL":"node_modules/parse/lib/node/ParseACL.js","./ParseFile":"node_modules/parse/lib/node/ParseFile.js","./ParseGeoPoint":"node_modules/parse/lib/node/ParseGeoPoint.js","./ParsePolygon":"node_modules/parse/lib/node/ParsePolygon.js","./ParseObject":"node_modules/parse/lib/node/ParseObject.js","./ParseOp":"node_modules/parse/lib/node/ParseOp.js","./ParseRelation":"node_modules/parse/lib/node/ParseRelation.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/randombytes/browser.js":[function(require,module,exports) {
+},{"./ParseACL":"node_modules/parse/lib/node/ParseACL.js","./ParseFile":"node_modules/parse/lib/node/ParseFile.js","./ParseGeoPoint":"node_modules/parse/lib/node/ParseGeoPoint.js","./ParsePolygon":"node_modules/parse/lib/node/ParsePolygon.js","./ParseObject":"node_modules/parse/lib/node/ParseObject.js","./ParseOp":"node_modules/parse/lib/node/ParseOp.js","./ParseRelation":"node_modules/parse/lib/node/ParseRelation.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/randombytes/browser.js":[function(require,module,exports) {
 
 var global = arguments[3];
 var process = require("process");
@@ -21877,7 +21877,7 @@ function randomBytes (size, cb) {
   return bytes
 }
 
-},{"safe-buffer":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js","process":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/process/browser.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/safe-buffer/index.js":[function(require,module,exports) {
+},{"safe-buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js","process":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/process/browser.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/safe-buffer/index.js":[function(require,module,exports) {
 
 /*! safe-buffer. MIT License. Feross Aboukhadijeh <https://feross.org/opensource> */
 /* eslint-disable node/no-deprecated-api */
@@ -21945,9 +21945,9 @@ SafeBuffer.allocUnsafeSlow = function (size) {
   return buffer.SlowBuffer(size)
 }
 
-},{"buffer":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/buffer/index.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/lib/internal/streams/stream-browser.js":[function(require,module,exports) {
+},{"buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/buffer/index.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/lib/internal/streams/stream-browser.js":[function(require,module,exports) {
 module.exports = require('events').EventEmitter;
-},{"events":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/events/events.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/lib/internal/streams/buffer_list.js":[function(require,module,exports) {
+},{"events":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/events/events.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/lib/internal/streams/buffer_list.js":[function(require,module,exports) {
 
 'use strict';
 
@@ -22216,7 +22216,7 @@ module.exports = /*#__PURE__*/function () {
 
   return BufferList;
 }();
-},{"buffer":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/buffer/index.js","util":"../../../AppData/Roaming/npm/node_modules/parcel/src/builtins/_empty.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/lib/internal/streams/destroy.js":[function(require,module,exports) {
+},{"buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/buffer/index.js","util":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/src/builtins/_empty.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/lib/internal/streams/destroy.js":[function(require,module,exports) {
 var process = require("process");
 'use strict'; // undocumented cb() API, needed for core, not for public API
 
@@ -22323,7 +22323,7 @@ module.exports = {
   undestroy: undestroy,
   errorOrDestroy: errorOrDestroy
 };
-},{"process":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/process/browser.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/errors-browser.js":[function(require,module,exports) {
+},{"process":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/process/browser.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/errors-browser.js":[function(require,module,exports) {
 'use strict';
 
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function (obj) { return typeof obj; }; } else { _typeof = function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -22455,7 +22455,7 @@ createErrorType('ERR_UNKNOWN_ENCODING', function (arg) {
 }, TypeError);
 createErrorType('ERR_STREAM_UNSHIFT_AFTER_END_EVENT', 'stream.unshift() after end event');
 module.exports.codes = codes;
-},{}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/lib/internal/streams/state.js":[function(require,module,exports) {
+},{}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/lib/internal/streams/state.js":[function(require,module,exports) {
 'use strict';
 
 var ERR_INVALID_OPT_VALUE = require('../../../errors').codes.ERR_INVALID_OPT_VALUE;
@@ -22483,7 +22483,7 @@ function getHighWaterMark(state, options, duplexKey, isDuplex) {
 module.exports = {
   getHighWaterMark: getHighWaterMark
 };
-},{"../../../errors":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/errors-browser.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/lib/_stream_writable.js":[function(require,module,exports) {
+},{"../../../errors":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/errors-browser.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/lib/_stream_writable.js":[function(require,module,exports) {
 
 var global = arguments[3];
 var process = require("process");
@@ -23184,7 +23184,7 @@ Writable.prototype._undestroy = destroyImpl.undestroy;
 Writable.prototype._destroy = function (err, cb) {
   cb(err);
 };
-},{"util-deprecate":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/util-deprecate/browser.js","./internal/streams/stream":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/lib/internal/streams/stream-browser.js","buffer":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/buffer/index.js","./internal/streams/destroy":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/lib/internal/streams/destroy.js","./internal/streams/state":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/lib/internal/streams/state.js","../errors":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/errors-browser.js","inherits":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js","./_stream_duplex":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/lib/_stream_duplex.js","process":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/process/browser.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/lib/_stream_duplex.js":[function(require,module,exports) {
+},{"util-deprecate":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/util-deprecate/browser.js","./internal/streams/stream":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/lib/internal/streams/stream-browser.js","buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/buffer/index.js","./internal/streams/destroy":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/lib/internal/streams/destroy.js","./internal/streams/state":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/lib/internal/streams/state.js","../errors":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/errors-browser.js","inherits":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js","./_stream_duplex":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/lib/_stream_duplex.js","process":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/process/browser.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/lib/_stream_duplex.js":[function(require,module,exports) {
 var process = require("process");
 // Copyright Joyent, Inc. and other Node contributors.
 //
@@ -23325,7 +23325,7 @@ Object.defineProperty(Duplex.prototype, 'destroyed', {
     this._writableState.destroyed = value;
   }
 });
-},{"./_stream_readable":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/lib/_stream_readable.js","./_stream_writable":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/lib/_stream_writable.js","inherits":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js","process":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/process/browser.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/lib/internal/streams/end-of-stream.js":[function(require,module,exports) {
+},{"./_stream_readable":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/lib/_stream_readable.js","./_stream_writable":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/lib/_stream_writable.js","inherits":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js","process":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/process/browser.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/lib/internal/streams/end-of-stream.js":[function(require,module,exports) {
 // Ported from https://github.com/mafintosh/end-of-stream with
 // permission from the author, Mathias Buus (@mafintosh).
 'use strict';
@@ -23430,7 +23430,7 @@ function eos(stream, opts, callback) {
 }
 
 module.exports = eos;
-},{"../../../errors":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/errors-browser.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/lib/internal/streams/async_iterator.js":[function(require,module,exports) {
+},{"../../../errors":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/errors-browser.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/lib/internal/streams/async_iterator.js":[function(require,module,exports) {
 var process = require("process");
 'use strict';
 
@@ -23652,11 +23652,11 @@ var createReadableStreamAsyncIterator = function createReadableStreamAsyncIterat
 };
 
 module.exports = createReadableStreamAsyncIterator;
-},{"./end-of-stream":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/lib/internal/streams/end-of-stream.js","process":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/process/browser.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/lib/internal/streams/from-browser.js":[function(require,module,exports) {
+},{"./end-of-stream":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/lib/internal/streams/end-of-stream.js","process":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/process/browser.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/lib/internal/streams/from-browser.js":[function(require,module,exports) {
 module.exports = function () {
   throw new Error('Readable.from is not available in the browser');
 };
-},{}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/lib/_stream_readable.js":[function(require,module,exports) {
+},{}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/lib/_stream_readable.js":[function(require,module,exports) {
 
 var global = arguments[3];
 var process = require("process");
@@ -24784,7 +24784,7 @@ function indexOf(xs, x) {
 
   return -1;
 }
-},{"events":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/events/events.js","./internal/streams/stream":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/lib/internal/streams/stream-browser.js","buffer":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/buffer/index.js","util":"../../../AppData/Roaming/npm/node_modules/parcel/src/builtins/_empty.js","./internal/streams/buffer_list":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/lib/internal/streams/buffer_list.js","./internal/streams/destroy":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/lib/internal/streams/destroy.js","./internal/streams/state":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/lib/internal/streams/state.js","../errors":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/errors-browser.js","inherits":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js","./_stream_duplex":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/lib/_stream_duplex.js","string_decoder/":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/string_decoder/lib/string_decoder.js","./internal/streams/async_iterator":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/lib/internal/streams/async_iterator.js","./internal/streams/from":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/lib/internal/streams/from-browser.js","process":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/process/browser.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/lib/_stream_transform.js":[function(require,module,exports) {
+},{"events":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/events/events.js","./internal/streams/stream":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/lib/internal/streams/stream-browser.js","buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/buffer/index.js","util":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/src/builtins/_empty.js","./internal/streams/buffer_list":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/lib/internal/streams/buffer_list.js","./internal/streams/destroy":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/lib/internal/streams/destroy.js","./internal/streams/state":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/lib/internal/streams/state.js","../errors":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/errors-browser.js","inherits":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js","./_stream_duplex":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/lib/_stream_duplex.js","string_decoder/":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/string_decoder/lib/string_decoder.js","./internal/streams/async_iterator":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/lib/internal/streams/async_iterator.js","./internal/streams/from":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/lib/internal/streams/from-browser.js","process":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/process/browser.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/lib/_stream_transform.js":[function(require,module,exports) {
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -24986,7 +24986,7 @@ function done(stream, er, data) {
   if (stream._transformState.transforming) throw new ERR_TRANSFORM_ALREADY_TRANSFORMING();
   return stream.push(null);
 }
-},{"../errors":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/errors-browser.js","./_stream_duplex":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/lib/_stream_duplex.js","inherits":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/lib/_stream_passthrough.js":[function(require,module,exports) {
+},{"../errors":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/errors-browser.js","./_stream_duplex":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/lib/_stream_duplex.js","inherits":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/lib/_stream_passthrough.js":[function(require,module,exports) {
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -25026,7 +25026,7 @@ function PassThrough(options) {
 PassThrough.prototype._transform = function (chunk, encoding, cb) {
   cb(null, chunk);
 };
-},{"./_stream_transform":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/lib/_stream_transform.js","inherits":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/lib/internal/streams/pipeline.js":[function(require,module,exports) {
+},{"./_stream_transform":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/lib/_stream_transform.js","inherits":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/lib/internal/streams/pipeline.js":[function(require,module,exports) {
 // Ported from https://github.com/mafintosh/pump with
 // permission from the author, Mathias Buus (@mafintosh).
 'use strict';
@@ -25124,7 +25124,7 @@ function pipeline() {
 }
 
 module.exports = pipeline;
-},{"../../../errors":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/errors-browser.js","./end-of-stream":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/lib/internal/streams/end-of-stream.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/readable-browser.js":[function(require,module,exports) {
+},{"../../../errors":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/errors-browser.js","./end-of-stream":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/lib/internal/streams/end-of-stream.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/readable-browser.js":[function(require,module,exports) {
 exports = module.exports = require('./lib/_stream_readable.js');
 exports.Stream = exports;
 exports.Readable = exports;
@@ -25134,7 +25134,7 @@ exports.Transform = require('./lib/_stream_transform.js');
 exports.PassThrough = require('./lib/_stream_passthrough.js');
 exports.finished = require('./lib/internal/streams/end-of-stream.js');
 exports.pipeline = require('./lib/internal/streams/pipeline.js');
-},{"./lib/_stream_readable.js":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/lib/_stream_readable.js","./lib/_stream_writable.js":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/lib/_stream_writable.js","./lib/_stream_duplex.js":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/lib/_stream_duplex.js","./lib/_stream_transform.js":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/lib/_stream_transform.js","./lib/_stream_passthrough.js":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/lib/_stream_passthrough.js","./lib/internal/streams/end-of-stream.js":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/lib/internal/streams/end-of-stream.js","./lib/internal/streams/pipeline.js":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/lib/internal/streams/pipeline.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/index.js":[function(require,module,exports) {
+},{"./lib/_stream_readable.js":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/lib/_stream_readable.js","./lib/_stream_writable.js":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/lib/_stream_writable.js","./lib/_stream_duplex.js":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/lib/_stream_duplex.js","./lib/_stream_transform.js":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/lib/_stream_transform.js","./lib/_stream_passthrough.js":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/lib/_stream_passthrough.js","./lib/internal/streams/end-of-stream.js":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/lib/internal/streams/end-of-stream.js","./lib/internal/streams/pipeline.js":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/lib/internal/streams/pipeline.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/index.js":[function(require,module,exports) {
 
 'use strict';
 
@@ -25239,7 +25239,7 @@ HashBase.prototype._digest = function () {
 };
 
 module.exports = HashBase;
-},{"safe-buffer":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/safe-buffer/index.js","readable-stream":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/readable-browser.js","inherits":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/md5.js/index.js":[function(require,module,exports) {
+},{"safe-buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/safe-buffer/index.js","readable-stream":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/node_modules/readable-stream/readable-browser.js","inherits":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/md5.js/index.js":[function(require,module,exports) {
 
 'use strict'
 var inherits = require('inherits')
@@ -25388,7 +25388,7 @@ function fnI (a, b, c, d, m, k, s) {
 
 module.exports = MD5
 
-},{"inherits":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js","hash-base":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/index.js","safe-buffer":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/ripemd160/index.js":[function(require,module,exports) {
+},{"inherits":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js","hash-base":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/index.js","safe-buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/ripemd160/index.js":[function(require,module,exports) {
 
 'use strict'
 var Buffer = require('buffer').Buffer
@@ -25554,7 +25554,7 @@ function fn5 (a, b, c, d, e, m, k, s) {
 
 module.exports = RIPEMD160
 
-},{"buffer":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/buffer/index.js","inherits":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js","hash-base":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/index.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/sha.js/hash.js":[function(require,module,exports) {
+},{"buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/buffer/index.js","inherits":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js","hash-base":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash-base/index.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/sha.js/hash.js":[function(require,module,exports) {
 
 var Buffer = require('safe-buffer').Buffer
 
@@ -25638,7 +25638,7 @@ Hash.prototype._update = function () {
 
 module.exports = Hash
 
-},{"safe-buffer":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/sha.js/sha.js":[function(require,module,exports) {
+},{"safe-buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/sha.js/sha.js":[function(require,module,exports) {
 
 /*
  * A JavaScript implementation of the Secure Hash Algorithm, SHA-0, as defined
@@ -25735,7 +25735,7 @@ Sha.prototype._hash = function () {
 
 module.exports = Sha
 
-},{"inherits":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js","./hash":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/sha.js/hash.js","safe-buffer":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/sha.js/sha1.js":[function(require,module,exports) {
+},{"inherits":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js","./hash":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/sha.js/hash.js","safe-buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/sha.js/sha1.js":[function(require,module,exports) {
 
 /*
  * A JavaScript implementation of the Secure Hash Algorithm, SHA-1, as defined
@@ -25837,7 +25837,7 @@ Sha1.prototype._hash = function () {
 
 module.exports = Sha1
 
-},{"inherits":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js","./hash":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/sha.js/hash.js","safe-buffer":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/sha.js/sha256.js":[function(require,module,exports) {
+},{"inherits":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js","./hash":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/sha.js/hash.js","safe-buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/sha.js/sha256.js":[function(require,module,exports) {
 
 /**
  * A JavaScript implementation of the Secure Hash Algorithm, SHA-256, as defined
@@ -25975,7 +25975,7 @@ Sha256.prototype._hash = function () {
 
 module.exports = Sha256
 
-},{"inherits":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js","./hash":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/sha.js/hash.js","safe-buffer":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/sha.js/sha224.js":[function(require,module,exports) {
+},{"inherits":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js","./hash":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/sha.js/hash.js","safe-buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/sha.js/sha224.js":[function(require,module,exports) {
 
 /**
  * A JavaScript implementation of the Secure Hash Algorithm, SHA-256, as defined
@@ -26031,7 +26031,7 @@ Sha224.prototype._hash = function () {
 
 module.exports = Sha224
 
-},{"inherits":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js","./sha256":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/sha.js/sha256.js","./hash":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/sha.js/hash.js","safe-buffer":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/sha.js/sha512.js":[function(require,module,exports) {
+},{"inherits":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js","./sha256":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/sha.js/sha256.js","./hash":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/sha.js/hash.js","safe-buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/sha.js/sha512.js":[function(require,module,exports) {
 
 var inherits = require('inherits')
 var Hash = require('./hash')
@@ -26294,7 +26294,7 @@ Sha512.prototype._hash = function () {
 
 module.exports = Sha512
 
-},{"inherits":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js","./hash":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/sha.js/hash.js","safe-buffer":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/sha.js/sha384.js":[function(require,module,exports) {
+},{"inherits":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js","./hash":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/sha.js/hash.js","safe-buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/sha.js/sha384.js":[function(require,module,exports) {
 
 var inherits = require('inherits')
 var SHA512 = require('./sha512')
@@ -26354,7 +26354,7 @@ Sha384.prototype._hash = function () {
 
 module.exports = Sha384
 
-},{"inherits":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js","./sha512":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/sha.js/sha512.js","./hash":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/sha.js/hash.js","safe-buffer":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/sha.js/index.js":[function(require,module,exports) {
+},{"inherits":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js","./sha512":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/sha.js/sha512.js","./hash":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/sha.js/hash.js","safe-buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/sha.js/index.js":[function(require,module,exports) {
 var exports = module.exports = function SHA (algorithm) {
   algorithm = algorithm.toLowerCase()
 
@@ -26371,19 +26371,19 @@ exports.sha256 = require('./sha256')
 exports.sha384 = require('./sha384')
 exports.sha512 = require('./sha512')
 
-},{"./sha":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/sha.js/sha.js","./sha1":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/sha.js/sha1.js","./sha224":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/sha.js/sha224.js","./sha256":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/sha.js/sha256.js","./sha384":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/sha.js/sha384.js","./sha512":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/sha.js/sha512.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/writable-browser.js":[function(require,module,exports) {
+},{"./sha":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/sha.js/sha.js","./sha1":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/sha.js/sha1.js","./sha224":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/sha.js/sha224.js","./sha256":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/sha.js/sha256.js","./sha384":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/sha.js/sha384.js","./sha512":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/sha.js/sha512.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/writable-browser.js":[function(require,module,exports) {
 module.exports = require('./lib/_stream_writable.js');
 
-},{"./lib/_stream_writable.js":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/lib/_stream_writable.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/duplex-browser.js":[function(require,module,exports) {
+},{"./lib/_stream_writable.js":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/lib/_stream_writable.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/duplex-browser.js":[function(require,module,exports) {
 module.exports = require('./lib/_stream_duplex.js');
 
-},{"./lib/_stream_duplex.js":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/lib/_stream_duplex.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/transform.js":[function(require,module,exports) {
+},{"./lib/_stream_duplex.js":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/lib/_stream_duplex.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/transform.js":[function(require,module,exports) {
 module.exports = require('./readable').Transform
 
-},{"./readable":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/readable-browser.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/passthrough.js":[function(require,module,exports) {
+},{"./readable":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/readable-browser.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/passthrough.js":[function(require,module,exports) {
 module.exports = require('./readable').PassThrough
 
-},{"./readable":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/readable-browser.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/stream-browserify/index.js":[function(require,module,exports) {
+},{"./readable":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/readable-browser.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/stream-browserify/index.js":[function(require,module,exports) {
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -26512,7 +26512,7 @@ Stream.prototype.pipe = function(dest, options) {
   return dest;
 };
 
-},{"events":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/events/events.js","inherits":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js","readable-stream/readable.js":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/readable-browser.js","readable-stream/writable.js":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/writable-browser.js","readable-stream/duplex.js":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/duplex-browser.js","readable-stream/transform.js":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/transform.js","readable-stream/passthrough.js":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/passthrough.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/cipher-base/index.js":[function(require,module,exports) {
+},{"events":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/events/events.js","inherits":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js","readable-stream/readable.js":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/readable-browser.js","readable-stream/writable.js":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/writable-browser.js","readable-stream/duplex.js":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/duplex-browser.js","readable-stream/transform.js":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/transform.js","readable-stream/passthrough.js":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/readable-stream/passthrough.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/cipher-base/index.js":[function(require,module,exports) {
 
 var Buffer = require('safe-buffer').Buffer
 var Transform = require('stream').Transform
@@ -26614,7 +26614,7 @@ CipherBase.prototype._toString = function (value, enc, fin) {
 
 module.exports = CipherBase
 
-},{"safe-buffer":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js","stream":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/stream-browserify/index.js","string_decoder":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/string_decoder/lib/string_decoder.js","inherits":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/create-hash/browser.js":[function(require,module,exports) {
+},{"safe-buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js","stream":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/stream-browserify/index.js","string_decoder":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/string_decoder/lib/string_decoder.js","inherits":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/create-hash/browser.js":[function(require,module,exports) {
 'use strict'
 var inherits = require('inherits')
 var MD5 = require('md5.js')
@@ -26646,7 +26646,7 @@ module.exports = function createHash (alg) {
   return new Hash(sha(alg))
 }
 
-},{"inherits":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js","md5.js":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/md5.js/index.js","ripemd160":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/ripemd160/index.js","sha.js":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/sha.js/index.js","cipher-base":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/cipher-base/index.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/create-hmac/legacy.js":[function(require,module,exports) {
+},{"inherits":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js","md5.js":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/md5.js/index.js","ripemd160":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/ripemd160/index.js","sha.js":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/sha.js/index.js","cipher-base":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/cipher-base/index.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/create-hmac/legacy.js":[function(require,module,exports) {
 
 'use strict'
 var inherits = require('inherits')
@@ -26695,14 +26695,14 @@ Hmac.prototype._final = function () {
 }
 module.exports = Hmac
 
-},{"inherits":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js","safe-buffer":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js","cipher-base":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/cipher-base/index.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/create-hash/md5.js":[function(require,module,exports) {
+},{"inherits":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js","safe-buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js","cipher-base":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/cipher-base/index.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/create-hash/md5.js":[function(require,module,exports) {
 var MD5 = require('md5.js')
 
 module.exports = function (buffer) {
   return new MD5().update(buffer).digest()
 }
 
-},{"md5.js":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/md5.js/index.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/create-hmac/browser.js":[function(require,module,exports) {
+},{"md5.js":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/md5.js/index.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/create-hmac/browser.js":[function(require,module,exports) {
 
 'use strict'
 var inherits = require('inherits')
@@ -26767,7 +26767,7 @@ module.exports = function createHmac (alg, key) {
   return new Hmac(alg, key)
 }
 
-},{"inherits":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js","./legacy":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/create-hmac/legacy.js","cipher-base":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/cipher-base/index.js","safe-buffer":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js","create-hash/md5":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/create-hash/md5.js","ripemd160":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/ripemd160/index.js","sha.js":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/sha.js/index.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/browser/algorithms.json":[function(require,module,exports) {
+},{"inherits":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js","./legacy":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/create-hmac/legacy.js","cipher-base":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/cipher-base/index.js","safe-buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js","create-hash/md5":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/create-hash/md5.js","ripemd160":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/ripemd160/index.js","sha.js":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/sha.js/index.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/browser/algorithms.json":[function(require,module,exports) {
 module.exports = {
   "sha224WithRSAEncryption": {
     "sign": "rsa",
@@ -26921,10 +26921,10 @@ module.exports = {
   }
 }
 ;
-},{}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/algos.js":[function(require,module,exports) {
+},{}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/algos.js":[function(require,module,exports) {
 module.exports = require('./browser/algorithms.json')
 
-},{"./browser/algorithms.json":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/browser/algorithms.json"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/pbkdf2/lib/precondition.js":[function(require,module,exports) {
+},{"./browser/algorithms.json":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/browser/algorithms.json"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/pbkdf2/lib/precondition.js":[function(require,module,exports) {
 var MAX_ALLOC = Math.pow(2, 30) - 1; // default in iojs
 
 module.exports = function (iterations, keylen) {
@@ -26945,7 +26945,7 @@ module.exports = function (iterations, keylen) {
     throw new TypeError('Bad key length');
   }
 };
-},{}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/pbkdf2/lib/default-encoding.js":[function(require,module,exports) {
+},{}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/pbkdf2/lib/default-encoding.js":[function(require,module,exports) {
 var process = require("process");
 var defaultEncoding;
 /* istanbul ignore next */
@@ -26960,7 +26960,7 @@ if (true) {
 }
 
 module.exports = defaultEncoding;
-},{"process":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/process/browser.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/pbkdf2/lib/to-buffer.js":[function(require,module,exports) {
+},{"process":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/process/browser.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/pbkdf2/lib/to-buffer.js":[function(require,module,exports) {
 
 var Buffer = require('safe-buffer').Buffer;
 
@@ -26975,7 +26975,7 @@ module.exports = function (thing, encoding, name) {
     throw new TypeError(name + ' must be a string, a Buffer, a typed array or a DataView');
   }
 };
-},{"safe-buffer":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/pbkdf2/lib/sync-browser.js":[function(require,module,exports) {
+},{"safe-buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/pbkdf2/lib/sync-browser.js":[function(require,module,exports) {
 
 var md5 = require('create-hash/md5');
 
@@ -27085,7 +27085,7 @@ function pbkdf2(password, salt, iterations, keylen, digest) {
 }
 
 module.exports = pbkdf2;
-},{"create-hash/md5":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/create-hash/md5.js","ripemd160":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/ripemd160/index.js","sha.js":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/sha.js/index.js","safe-buffer":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js","./precondition":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/pbkdf2/lib/precondition.js","./default-encoding":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/pbkdf2/lib/default-encoding.js","./to-buffer":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/pbkdf2/lib/to-buffer.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/pbkdf2/lib/async.js":[function(require,module,exports) {
+},{"create-hash/md5":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/create-hash/md5.js","ripemd160":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/ripemd160/index.js","sha.js":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/sha.js/index.js","safe-buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js","./precondition":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/pbkdf2/lib/precondition.js","./default-encoding":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/pbkdf2/lib/default-encoding.js","./to-buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/pbkdf2/lib/to-buffer.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/pbkdf2/lib/async.js":[function(require,module,exports) {
 
 var global = arguments[3];
 var process = require("process");
@@ -27198,10 +27198,10 @@ module.exports = function (password, salt, iterations, keylen, digest, callback)
     return sync(password, salt, iterations, keylen, digest);
   }), callback);
 };
-},{"safe-buffer":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js","./precondition":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/pbkdf2/lib/precondition.js","./default-encoding":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/pbkdf2/lib/default-encoding.js","./sync":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/pbkdf2/lib/sync-browser.js","./to-buffer":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/pbkdf2/lib/to-buffer.js","process":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/process/browser.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/pbkdf2/browser.js":[function(require,module,exports) {
+},{"safe-buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js","./precondition":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/pbkdf2/lib/precondition.js","./default-encoding":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/pbkdf2/lib/default-encoding.js","./sync":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/pbkdf2/lib/sync-browser.js","./to-buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/pbkdf2/lib/to-buffer.js","process":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/process/browser.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/pbkdf2/browser.js":[function(require,module,exports) {
 exports.pbkdf2 = require('./lib/async');
 exports.pbkdf2Sync = require('./lib/sync');
-},{"./lib/async":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/pbkdf2/lib/async.js","./lib/sync":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/pbkdf2/lib/sync-browser.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/des.js/lib/des/utils.js":[function(require,module,exports) {
+},{"./lib/async":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/pbkdf2/lib/async.js","./lib/sync":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/pbkdf2/lib/sync-browser.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/des.js/lib/des/utils.js":[function(require,module,exports) {
 'use strict';
 
 exports.readUInt32BE = function readUInt32BE(bytes, off) {
@@ -27459,7 +27459,7 @@ exports.padSplit = function padSplit(num, size, group) {
   return out.join(' ');
 };
 
-},{}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/minimalistic-assert/index.js":[function(require,module,exports) {
+},{}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/minimalistic-assert/index.js":[function(require,module,exports) {
 module.exports = assert;
 
 function assert(val, msg) {
@@ -27472,7 +27472,7 @@ assert.equal = function assertEqual(l, r, msg) {
     throw new Error(msg || ('Assertion failed: ' + l + ' != ' + r));
 };
 
-},{}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/des.js/lib/des/cipher.js":[function(require,module,exports) {
+},{}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/des.js/lib/des/cipher.js":[function(require,module,exports) {
 'use strict';
 
 var assert = require('minimalistic-assert');
@@ -27615,7 +27615,7 @@ Cipher.prototype._finalDecrypt = function _finalDecrypt() {
   return this._unpad(out);
 };
 
-},{"minimalistic-assert":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/minimalistic-assert/index.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/des.js/lib/des/des.js":[function(require,module,exports) {
+},{"minimalistic-assert":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/minimalistic-assert/index.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/des.js/lib/des/des.js":[function(require,module,exports) {
 'use strict';
 
 var assert = require('minimalistic-assert');
@@ -27759,7 +27759,7 @@ DES.prototype._decrypt = function _decrypt(state, lStart, rStart, out, off) {
   utils.rip(l, r, out, off);
 };
 
-},{"minimalistic-assert":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/minimalistic-assert/index.js","inherits":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js","./utils":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/des.js/lib/des/utils.js","./cipher":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/des.js/lib/des/cipher.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/des.js/lib/des/cbc.js":[function(require,module,exports) {
+},{"minimalistic-assert":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/minimalistic-assert/index.js","inherits":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js","./utils":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/des.js/lib/des/utils.js","./cipher":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/des.js/lib/des/cipher.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/des.js/lib/des/cbc.js":[function(require,module,exports) {
 'use strict';
 
 var assert = require('minimalistic-assert');
@@ -27826,7 +27826,7 @@ proto._update = function _update(inp, inOff, out, outOff) {
   }
 };
 
-},{"minimalistic-assert":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/minimalistic-assert/index.js","inherits":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/des.js/lib/des/ede.js":[function(require,module,exports) {
+},{"minimalistic-assert":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/minimalistic-assert/index.js","inherits":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/des.js/lib/des/ede.js":[function(require,module,exports) {
 'use strict';
 
 var assert = require('minimalistic-assert');
@@ -27882,7 +27882,7 @@ EDE.prototype._update = function _update(inp, inOff, out, outOff) {
 EDE.prototype._pad = DES.prototype._pad;
 EDE.prototype._unpad = DES.prototype._unpad;
 
-},{"minimalistic-assert":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/minimalistic-assert/index.js","inherits":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js","./cipher":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/des.js/lib/des/cipher.js","./des":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/des.js/lib/des/des.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/des.js/lib/des.js":[function(require,module,exports) {
+},{"minimalistic-assert":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/minimalistic-assert/index.js","inherits":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js","./cipher":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/des.js/lib/des/cipher.js","./des":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/des.js/lib/des/des.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/des.js/lib/des.js":[function(require,module,exports) {
 'use strict';
 
 exports.utils = require('./des/utils');
@@ -27891,7 +27891,7 @@ exports.DES = require('./des/des');
 exports.CBC = require('./des/cbc');
 exports.EDE = require('./des/ede');
 
-},{"./des/utils":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/des.js/lib/des/utils.js","./des/cipher":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/des.js/lib/des/cipher.js","./des/des":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/des.js/lib/des/des.js","./des/cbc":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/des.js/lib/des/cbc.js","./des/ede":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/des.js/lib/des/ede.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-des/index.js":[function(require,module,exports) {
+},{"./des/utils":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/des.js/lib/des/utils.js","./des/cipher":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/des.js/lib/des/cipher.js","./des/des":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/des.js/lib/des/des.js","./des/cbc":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/des.js/lib/des/cbc.js","./des/ede":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/des.js/lib/des/ede.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-des/index.js":[function(require,module,exports) {
 
 var CipherBase = require('cipher-base')
 var des = require('des.js')
@@ -27944,7 +27944,7 @@ DES.prototype._final = function () {
   return Buffer.from(this._des.final())
 }
 
-},{"cipher-base":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/cipher-base/index.js","des.js":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/des.js/lib/des.js","inherits":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js","safe-buffer":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/modes/ecb.js":[function(require,module,exports) {
+},{"cipher-base":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/cipher-base/index.js","des.js":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/des.js/lib/des.js","inherits":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js","safe-buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/modes/ecb.js":[function(require,module,exports) {
 exports.encrypt = function (self, block) {
   return self._cipher.encryptBlock(block)
 }
@@ -27953,7 +27953,7 @@ exports.decrypt = function (self, block) {
   return self._cipher.decryptBlock(block)
 }
 
-},{}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/buffer-xor/index.js":[function(require,module,exports) {
+},{}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/buffer-xor/index.js":[function(require,module,exports) {
 var Buffer = require("buffer").Buffer;
 module.exports = function xor (a, b) {
   var length = Math.min(a.length, b.length)
@@ -27966,7 +27966,7 @@ module.exports = function xor (a, b) {
   return buffer
 }
 
-},{"buffer":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/buffer/index.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/modes/cbc.js":[function(require,module,exports) {
+},{"buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/buffer/index.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/modes/cbc.js":[function(require,module,exports) {
 var xor = require('buffer-xor')
 
 exports.encrypt = function (self, block) {
@@ -27985,7 +27985,7 @@ exports.decrypt = function (self, block) {
   return xor(out, pad)
 }
 
-},{"buffer-xor":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/buffer-xor/index.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/modes/cfb.js":[function(require,module,exports) {
+},{"buffer-xor":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/buffer-xor/index.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/modes/cfb.js":[function(require,module,exports) {
 
 var Buffer = require('safe-buffer').Buffer
 var xor = require('buffer-xor')
@@ -28021,7 +28021,7 @@ exports.encrypt = function (self, data, decrypt) {
   return out
 }
 
-},{"safe-buffer":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js","buffer-xor":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/buffer-xor/index.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/modes/cfb8.js":[function(require,module,exports) {
+},{"safe-buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js","buffer-xor":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/buffer-xor/index.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/modes/cfb8.js":[function(require,module,exports) {
 
 var Buffer = require('safe-buffer').Buffer
 
@@ -28049,7 +28049,7 @@ exports.encrypt = function (self, chunk, decrypt) {
   return out
 }
 
-},{"safe-buffer":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/modes/cfb1.js":[function(require,module,exports) {
+},{"safe-buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/modes/cfb1.js":[function(require,module,exports) {
 
 var Buffer = require('safe-buffer').Buffer
 
@@ -28094,7 +28094,7 @@ exports.encrypt = function (self, chunk, decrypt) {
   return out
 }
 
-},{"safe-buffer":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/modes/ofb.js":[function(require,module,exports) {
+},{"safe-buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/modes/ofb.js":[function(require,module,exports) {
 var Buffer = require("buffer").Buffer;
 var xor = require('buffer-xor')
 
@@ -28113,7 +28113,7 @@ exports.encrypt = function (self, chunk) {
   return xor(chunk, pad)
 }
 
-},{"buffer-xor":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/buffer-xor/index.js","buffer":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/buffer/index.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/incr32.js":[function(require,module,exports) {
+},{"buffer-xor":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/buffer-xor/index.js","buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/buffer/index.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/incr32.js":[function(require,module,exports) {
 function incr32 (iv) {
   var len = iv.length
   var item
@@ -28130,7 +28130,7 @@ function incr32 (iv) {
 }
 module.exports = incr32
 
-},{}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/modes/ctr.js":[function(require,module,exports) {
+},{}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/modes/ctr.js":[function(require,module,exports) {
 
 var xor = require('buffer-xor')
 var Buffer = require('safe-buffer').Buffer
@@ -28163,7 +28163,7 @@ exports.encrypt = function (self, chunk) {
   return xor(chunk, pad)
 }
 
-},{"buffer-xor":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/buffer-xor/index.js","safe-buffer":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js","../incr32":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/incr32.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/modes/list.json":[function(require,module,exports) {
+},{"buffer-xor":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/buffer-xor/index.js","safe-buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js","../incr32":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/incr32.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/modes/list.json":[function(require,module,exports) {
 module.exports = {
   "aes-128-ecb": {
     "cipher": "AES",
@@ -28356,7 +28356,7 @@ module.exports = {
   }
 }
 ;
-},{}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/modes/index.js":[function(require,module,exports) {
+},{}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/modes/index.js":[function(require,module,exports) {
 var modeModules = {
   ECB: require('./ecb'),
   CBC: require('./cbc'),
@@ -28376,7 +28376,7 @@ for (var key in modes) {
 
 module.exports = modes
 
-},{"./ecb":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/modes/ecb.js","./cbc":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/modes/cbc.js","./cfb":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/modes/cfb.js","./cfb8":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/modes/cfb8.js","./cfb1":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/modes/cfb1.js","./ofb":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/modes/ofb.js","./ctr":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/modes/ctr.js","./list.json":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/modes/list.json"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/aes.js":[function(require,module,exports) {
+},{"./ecb":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/modes/ecb.js","./cbc":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/modes/cbc.js","./cfb":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/modes/cfb.js","./cfb8":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/modes/cfb8.js","./cfb1":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/modes/cfb1.js","./ofb":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/modes/ofb.js","./ctr":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/modes/ctr.js","./list.json":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/modes/list.json"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/aes.js":[function(require,module,exports) {
 
 // based on the aes implimentation in triple sec
 // https://github.com/keybase/triplesec
@@ -28607,7 +28607,7 @@ AES.prototype.scrub = function () {
 
 module.exports.AES = AES
 
-},{"safe-buffer":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/ghash.js":[function(require,module,exports) {
+},{"safe-buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/ghash.js":[function(require,module,exports) {
 
 var Buffer = require('safe-buffer').Buffer
 var ZEROES = Buffer.alloc(16, 0)
@@ -28699,7 +28699,7 @@ GHASH.prototype.final = function (abl, bl) {
 
 module.exports = GHASH
 
-},{"safe-buffer":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/authCipher.js":[function(require,module,exports) {
+},{"safe-buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/authCipher.js":[function(require,module,exports) {
 
 var aes = require('./aes')
 var Buffer = require('safe-buffer').Buffer
@@ -28819,7 +28819,7 @@ StreamCipher.prototype.setAAD = function setAAD (buf) {
 
 module.exports = StreamCipher
 
-},{"./aes":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/aes.js","safe-buffer":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js","cipher-base":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/cipher-base/index.js","inherits":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js","./ghash":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/ghash.js","buffer-xor":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/buffer-xor/index.js","./incr32":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/incr32.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/streamCipher.js":[function(require,module,exports) {
+},{"./aes":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/aes.js","safe-buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js","cipher-base":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/cipher-base/index.js","inherits":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js","./ghash":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/ghash.js","buffer-xor":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/buffer-xor/index.js","./incr32":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/incr32.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/streamCipher.js":[function(require,module,exports) {
 
 var aes = require('./aes')
 var Buffer = require('safe-buffer').Buffer
@@ -28849,7 +28849,7 @@ StreamCipher.prototype._final = function () {
 
 module.exports = StreamCipher
 
-},{"./aes":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/aes.js","safe-buffer":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js","cipher-base":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/cipher-base/index.js","inherits":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/evp_bytestokey/index.js":[function(require,module,exports) {
+},{"./aes":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/aes.js","safe-buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js","cipher-base":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/cipher-base/index.js","inherits":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/evp_bytestokey/index.js":[function(require,module,exports) {
 
 var Buffer = require('safe-buffer').Buffer
 var MD5 = require('md5.js')
@@ -28897,7 +28897,7 @@ function EVP_BytesToKey (password, salt, keyBits, ivLen) {
 
 module.exports = EVP_BytesToKey
 
-},{"safe-buffer":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js","md5.js":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/md5.js/index.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/encrypter.js":[function(require,module,exports) {
+},{"safe-buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js","md5.js":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/md5.js/index.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/encrypter.js":[function(require,module,exports) {
 
 var MODES = require('./modes')
 var AuthCipher = require('./authCipher')
@@ -29014,7 +29014,7 @@ function createCipher (suite, password) {
 exports.createCipheriv = createCipheriv
 exports.createCipher = createCipher
 
-},{"./modes":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/modes/index.js","./authCipher":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/authCipher.js","safe-buffer":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js","./streamCipher":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/streamCipher.js","cipher-base":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/cipher-base/index.js","./aes":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/aes.js","evp_bytestokey":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/evp_bytestokey/index.js","inherits":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/decrypter.js":[function(require,module,exports) {
+},{"./modes":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/modes/index.js","./authCipher":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/authCipher.js","safe-buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js","./streamCipher":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/streamCipher.js","cipher-base":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/cipher-base/index.js","./aes":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/aes.js","evp_bytestokey":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/evp_bytestokey/index.js","inherits":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/decrypter.js":[function(require,module,exports) {
 
 var AuthCipher = require('./authCipher')
 var Buffer = require('safe-buffer').Buffer
@@ -29141,7 +29141,7 @@ function createDecipher (suite, password) {
 exports.createDecipher = createDecipher
 exports.createDecipheriv = createDecipheriv
 
-},{"./authCipher":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/authCipher.js","safe-buffer":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js","./modes":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/modes/index.js","./streamCipher":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/streamCipher.js","cipher-base":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/cipher-base/index.js","./aes":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/aes.js","evp_bytestokey":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/evp_bytestokey/index.js","inherits":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/browser.js":[function(require,module,exports) {
+},{"./authCipher":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/authCipher.js","safe-buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js","./modes":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/modes/index.js","./streamCipher":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/streamCipher.js","cipher-base":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/cipher-base/index.js","./aes":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/aes.js","evp_bytestokey":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/evp_bytestokey/index.js","inherits":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/browser.js":[function(require,module,exports) {
 var ciphers = require('./encrypter')
 var deciphers = require('./decrypter')
 var modes = require('./modes/list.json')
@@ -29156,7 +29156,7 @@ exports.createDecipher = exports.Decipher = deciphers.createDecipher
 exports.createDecipheriv = exports.Decipheriv = deciphers.createDecipheriv
 exports.listCiphers = exports.getCiphers = getCiphers
 
-},{"./encrypter":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/encrypter.js","./decrypter":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/decrypter.js","./modes/list.json":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/modes/list.json"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-des/modes.js":[function(require,module,exports) {
+},{"./encrypter":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/encrypter.js","./decrypter":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/decrypter.js","./modes/list.json":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/modes/list.json"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-des/modes.js":[function(require,module,exports) {
 exports['des-ecb'] = {
   key: 8,
   iv: 0
@@ -29182,7 +29182,7 @@ exports['des-ede'] = {
   iv: 0
 }
 
-},{}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-cipher/browser.js":[function(require,module,exports) {
+},{}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-cipher/browser.js":[function(require,module,exports) {
 var DES = require('browserify-des')
 var aes = require('browserify-aes/browser')
 var aesModes = require('browserify-aes/modes')
@@ -29251,7 +29251,7 @@ exports.createDecipher = exports.Decipher = createDecipher
 exports.createDecipheriv = exports.Decipheriv = createDecipheriv
 exports.listCiphers = exports.getCiphers = getCiphers
 
-},{"browserify-des":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-des/index.js","browserify-aes/browser":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/browser.js","browserify-aes/modes":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/modes/index.js","browserify-des/modes":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-des/modes.js","evp_bytestokey":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/evp_bytestokey/index.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/diffie-hellman/node_modules/bn.js/lib/bn.js":[function(require,module,exports) {
+},{"browserify-des":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-des/index.js","browserify-aes/browser":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/browser.js","browserify-aes/modes":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/modes/index.js","browserify-des/modes":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-des/modes.js","evp_bytestokey":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/evp_bytestokey/index.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/diffie-hellman/node_modules/bn.js/lib/bn.js":[function(require,module,exports) {
 var Buffer = require("buffer").Buffer;
 (function (module, exports) {
   'use strict';
@@ -32687,7 +32687,7 @@ var Buffer = require("buffer").Buffer;
   };
 })(typeof module === 'undefined' || module, this);
 
-},{"buffer":"../../../AppData/Roaming/npm/node_modules/parcel/src/builtins/_empty.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/miller-rabin/node_modules/bn.js/lib/bn.js":[function(require,module,exports) {
+},{"buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/src/builtins/_empty.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/miller-rabin/node_modules/bn.js/lib/bn.js":[function(require,module,exports) {
 var Buffer = require("buffer").Buffer;
 (function (module, exports) {
   'use strict';
@@ -36123,7 +36123,7 @@ var Buffer = require("buffer").Buffer;
   };
 })(typeof module === 'undefined' || module, this);
 
-},{"buffer":"../../../AppData/Roaming/npm/node_modules/parcel/src/builtins/_empty.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/brorand/index.js":[function(require,module,exports) {
+},{"buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/src/builtins/_empty.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/brorand/index.js":[function(require,module,exports) {
 var r;
 
 module.exports = function rand(len) {
@@ -36190,7 +36190,7 @@ if (typeof self === 'object') {
   }
 }
 
-},{"crypto":"../../../AppData/Roaming/npm/node_modules/parcel/src/builtins/_empty.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/miller-rabin/lib/mr.js":[function(require,module,exports) {
+},{"crypto":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/src/builtins/_empty.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/miller-rabin/lib/mr.js":[function(require,module,exports) {
 var bn = require('bn.js');
 var brorand = require('brorand');
 
@@ -36307,7 +36307,7 @@ MillerRabin.prototype.getDivisor = function getDivisor(n, k) {
   return false;
 };
 
-},{"bn.js":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/miller-rabin/node_modules/bn.js/lib/bn.js","brorand":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/brorand/index.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/diffie-hellman/lib/generatePrime.js":[function(require,module,exports) {
+},{"bn.js":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/miller-rabin/node_modules/bn.js/lib/bn.js","brorand":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/brorand/index.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/diffie-hellman/lib/generatePrime.js":[function(require,module,exports) {
 var randomBytes = require('randombytes');
 module.exports = findPrime;
 findPrime.simpleSieve = simpleSieve;
@@ -36414,7 +36414,7 @@ function findPrime(bits, gen) {
 
 }
 
-},{"randombytes":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/randombytes/browser.js","bn.js":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/diffie-hellman/node_modules/bn.js/lib/bn.js","miller-rabin":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/miller-rabin/lib/mr.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/diffie-hellman/lib/primes.json":[function(require,module,exports) {
+},{"randombytes":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/randombytes/browser.js","bn.js":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/diffie-hellman/node_modules/bn.js/lib/bn.js","miller-rabin":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/miller-rabin/lib/mr.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/diffie-hellman/lib/primes.json":[function(require,module,exports) {
 module.exports = {
     "modp1": {
         "gen": "02",
@@ -36449,7 +36449,7 @@ module.exports = {
         "prime": "ffffffffffffffffc90fdaa22168c234c4c6628b80dc1cd129024e088a67cc74020bbea63b139b22514a08798e3404ddef9519b3cd3a431b302b0a6df25f14374fe1356d6d51c245e485b576625e7ec6f44c42e9a637ed6b0bff5cb6f406b7edee386bfb5a899fa5ae9f24117c4b1fe649286651ece45b3dc2007cb8a163bf0598da48361c55d39a69163fa8fd24cf5f83655d23dca3ad961c62f356208552bb9ed529077096966d670c354e4abc9804f1746c08ca18217c32905e462e36ce3be39e772c180e86039b2783a2ec07a28fb5c55df06f4c52c9de2bcbf6955817183995497cea956ae515d2261898fa051015728e5a8aaac42dad33170d04507a33a85521abdf1cba64ecfb850458dbef0a8aea71575d060c7db3970f85a6e1e4c7abf5ae8cdb0933d71e8c94e04a25619dcee3d2261ad2ee6bf12ffa06d98a0864d87602733ec86a64521f2b18177b200cbbe117577a615d6c770988c0bad946e208e24fa074e5ab3143db5bfce0fd108e4b82d120a92108011a723c12a787e6d788719a10bdba5b2699c327186af4e23c1a946834b6150bda2583e9ca2ad44ce8dbbbc2db04de8ef92e8efc141fbecaa6287c59474e6bc05d99b2964fa090c3a2233ba186515be7ed1f612970cee2d7afb81bdd762170481cd0069127d5b05aa993b4ea988d8fddc186ffb7dc90a6c08f4df435c93402849236c3fab4d27c7026c1d4dcb2602646dec9751e763dba37bdf8ff9406ad9e530ee5db382f413001aeb06a53ed9027d831179727b0865a8918da3edbebcf9b14ed44ce6cbaced4bb1bdb7f1447e6cc254b332051512bd7af426fb8f401378cd2bf5983ca01c64b92ecf032ea15d1721d03f482d7ce6e74fef6d55e702f46980c82b5a84031900b1c9e59e7c97fbec7e8f323a97a7e36cc88be0f1d45b7ff585ac54bd407b22b4154aacc8f6d7ebf48e1d814cc5ed20f8037e0a79715eef29be32806a1d58bb7c5da76f550aa3d8a1fbff0eb19ccb1a313d55cda56c9ec2ef29632387fe8d76e3c0468043e8f663f4860ee12bf2d5b0b7474d6e694f91e6dbe115974a3926f12fee5e438777cb6a932df8cd8bec4d073b931ba3bc832b68d9dd300741fa7bf8afc47ed2576f6936ba424663aab639c5ae4f5683423b4742bf1c978238f16cbe39d652de3fdb8befc848ad922222e04a4037c0713eb57a81a23f0c73473fc646cea306b4bcbc8862f8385ddfa9d4b7fa2c087e879683303ed5bdd3a062b3cf5b3a278a66d2a13f83f44f82ddf310ee074ab6a364597e899a0255dc164f31cc50846851df9ab48195ded7ea1b1d510bd7ee74d73faf36bc31ecfa268359046f4eb879f924009438b481c6cd7889a002ed5ee382bc9190da6fc026e479558e4475677e9aa9e3050e2765694dfc81f56e880b96e7160c980dd98edd3dfffffffffffffffff"
     }
 };
-},{}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/diffie-hellman/lib/dh.js":[function(require,module,exports) {
+},{}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/diffie-hellman/lib/dh.js":[function(require,module,exports) {
 var Buffer = require("buffer").Buffer;
 var BN = require('bn.js');
 var MillerRabin = require('miller-rabin');
@@ -36616,7 +36616,7 @@ function formatReturnValue(bn, enc) {
   }
 }
 
-},{"bn.js":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/diffie-hellman/node_modules/bn.js/lib/bn.js","miller-rabin":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/miller-rabin/lib/mr.js","./generatePrime":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/diffie-hellman/lib/generatePrime.js","randombytes":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/randombytes/browser.js","buffer":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/buffer/index.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/diffie-hellman/browser.js":[function(require,module,exports) {
+},{"bn.js":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/diffie-hellman/node_modules/bn.js/lib/bn.js","miller-rabin":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/miller-rabin/lib/mr.js","./generatePrime":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/diffie-hellman/lib/generatePrime.js","randombytes":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/randombytes/browser.js","buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/buffer/index.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/diffie-hellman/browser.js":[function(require,module,exports) {
 var Buffer = require("buffer").Buffer;
 var generatePrime = require('./lib/generatePrime')
 var primes = require('./lib/primes.json')
@@ -36661,7 +36661,7 @@ function createDiffieHellman (prime, enc, generator, genc) {
 exports.DiffieHellmanGroup = exports.createDiffieHellmanGroup = exports.getDiffieHellman = getDiffieHellman
 exports.createDiffieHellman = exports.DiffieHellman = createDiffieHellman
 
-},{"./lib/generatePrime":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/diffie-hellman/lib/generatePrime.js","./lib/primes.json":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/diffie-hellman/lib/primes.json","./lib/dh":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/diffie-hellman/lib/dh.js","buffer":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/buffer/index.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/safe-buffer/index.js":[function(require,module,exports) {
+},{"./lib/generatePrime":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/diffie-hellman/lib/generatePrime.js","./lib/primes.json":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/diffie-hellman/lib/primes.json","./lib/dh":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/diffie-hellman/lib/dh.js","buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/buffer/index.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/safe-buffer/index.js":[function(require,module,exports) {
 
 /*! safe-buffer. MIT License. Feross Aboukhadijeh <https://feross.org/opensource> */
 /* eslint-disable node/no-deprecated-api */
@@ -36729,9 +36729,9 @@ SafeBuffer.allocUnsafeSlow = function (size) {
   return buffer.SlowBuffer(size)
 }
 
-},{"buffer":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/buffer/index.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/lib/internal/streams/stream-browser.js":[function(require,module,exports) {
+},{"buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/buffer/index.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/lib/internal/streams/stream-browser.js":[function(require,module,exports) {
 module.exports = require('events').EventEmitter;
-},{"events":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/events/events.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/lib/internal/streams/buffer_list.js":[function(require,module,exports) {
+},{"events":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/events/events.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/lib/internal/streams/buffer_list.js":[function(require,module,exports) {
 
 'use strict';
 
@@ -37000,7 +37000,7 @@ module.exports = /*#__PURE__*/function () {
 
   return BufferList;
 }();
-},{"buffer":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/buffer/index.js","util":"../../../AppData/Roaming/npm/node_modules/parcel/src/builtins/_empty.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/lib/internal/streams/destroy.js":[function(require,module,exports) {
+},{"buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/buffer/index.js","util":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/src/builtins/_empty.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/lib/internal/streams/destroy.js":[function(require,module,exports) {
 var process = require("process");
 'use strict'; // undocumented cb() API, needed for core, not for public API
 
@@ -37107,7 +37107,7 @@ module.exports = {
   undestroy: undestroy,
   errorOrDestroy: errorOrDestroy
 };
-},{"process":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/process/browser.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/errors-browser.js":[function(require,module,exports) {
+},{"process":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/process/browser.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/errors-browser.js":[function(require,module,exports) {
 'use strict';
 
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function (obj) { return typeof obj; }; } else { _typeof = function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -37239,7 +37239,7 @@ createErrorType('ERR_UNKNOWN_ENCODING', function (arg) {
 }, TypeError);
 createErrorType('ERR_STREAM_UNSHIFT_AFTER_END_EVENT', 'stream.unshift() after end event');
 module.exports.codes = codes;
-},{}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/lib/internal/streams/state.js":[function(require,module,exports) {
+},{}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/lib/internal/streams/state.js":[function(require,module,exports) {
 'use strict';
 
 var ERR_INVALID_OPT_VALUE = require('../../../errors').codes.ERR_INVALID_OPT_VALUE;
@@ -37267,7 +37267,7 @@ function getHighWaterMark(state, options, duplexKey, isDuplex) {
 module.exports = {
   getHighWaterMark: getHighWaterMark
 };
-},{"../../../errors":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/errors-browser.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/lib/_stream_writable.js":[function(require,module,exports) {
+},{"../../../errors":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/errors-browser.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/lib/_stream_writable.js":[function(require,module,exports) {
 
 var global = arguments[3];
 var process = require("process");
@@ -37968,7 +37968,7 @@ Writable.prototype._undestroy = destroyImpl.undestroy;
 Writable.prototype._destroy = function (err, cb) {
   cb(err);
 };
-},{"util-deprecate":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/util-deprecate/browser.js","./internal/streams/stream":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/lib/internal/streams/stream-browser.js","buffer":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/buffer/index.js","./internal/streams/destroy":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/lib/internal/streams/destroy.js","./internal/streams/state":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/lib/internal/streams/state.js","../errors":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/errors-browser.js","inherits":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js","./_stream_duplex":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/lib/_stream_duplex.js","process":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/process/browser.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/lib/_stream_duplex.js":[function(require,module,exports) {
+},{"util-deprecate":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/util-deprecate/browser.js","./internal/streams/stream":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/lib/internal/streams/stream-browser.js","buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/buffer/index.js","./internal/streams/destroy":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/lib/internal/streams/destroy.js","./internal/streams/state":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/lib/internal/streams/state.js","../errors":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/errors-browser.js","inherits":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js","./_stream_duplex":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/lib/_stream_duplex.js","process":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/process/browser.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/lib/_stream_duplex.js":[function(require,module,exports) {
 var process = require("process");
 // Copyright Joyent, Inc. and other Node contributors.
 //
@@ -38109,7 +38109,7 @@ Object.defineProperty(Duplex.prototype, 'destroyed', {
     this._writableState.destroyed = value;
   }
 });
-},{"./_stream_readable":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/lib/_stream_readable.js","./_stream_writable":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/lib/_stream_writable.js","inherits":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js","process":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/process/browser.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/lib/internal/streams/end-of-stream.js":[function(require,module,exports) {
+},{"./_stream_readable":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/lib/_stream_readable.js","./_stream_writable":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/lib/_stream_writable.js","inherits":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js","process":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/process/browser.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/lib/internal/streams/end-of-stream.js":[function(require,module,exports) {
 // Ported from https://github.com/mafintosh/end-of-stream with
 // permission from the author, Mathias Buus (@mafintosh).
 'use strict';
@@ -38214,7 +38214,7 @@ function eos(stream, opts, callback) {
 }
 
 module.exports = eos;
-},{"../../../errors":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/errors-browser.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/lib/internal/streams/async_iterator.js":[function(require,module,exports) {
+},{"../../../errors":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/errors-browser.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/lib/internal/streams/async_iterator.js":[function(require,module,exports) {
 var process = require("process");
 'use strict';
 
@@ -38436,11 +38436,11 @@ var createReadableStreamAsyncIterator = function createReadableStreamAsyncIterat
 };
 
 module.exports = createReadableStreamAsyncIterator;
-},{"./end-of-stream":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/lib/internal/streams/end-of-stream.js","process":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/process/browser.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/lib/internal/streams/from-browser.js":[function(require,module,exports) {
+},{"./end-of-stream":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/lib/internal/streams/end-of-stream.js","process":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/process/browser.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/lib/internal/streams/from-browser.js":[function(require,module,exports) {
 module.exports = function () {
   throw new Error('Readable.from is not available in the browser');
 };
-},{}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/lib/_stream_readable.js":[function(require,module,exports) {
+},{}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/lib/_stream_readable.js":[function(require,module,exports) {
 
 var global = arguments[3];
 var process = require("process");
@@ -39568,7 +39568,7 @@ function indexOf(xs, x) {
 
   return -1;
 }
-},{"events":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/events/events.js","./internal/streams/stream":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/lib/internal/streams/stream-browser.js","buffer":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/buffer/index.js","util":"../../../AppData/Roaming/npm/node_modules/parcel/src/builtins/_empty.js","./internal/streams/buffer_list":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/lib/internal/streams/buffer_list.js","./internal/streams/destroy":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/lib/internal/streams/destroy.js","./internal/streams/state":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/lib/internal/streams/state.js","../errors":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/errors-browser.js","inherits":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js","./_stream_duplex":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/lib/_stream_duplex.js","string_decoder/":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/string_decoder/lib/string_decoder.js","./internal/streams/async_iterator":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/lib/internal/streams/async_iterator.js","./internal/streams/from":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/lib/internal/streams/from-browser.js","process":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/process/browser.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/lib/_stream_transform.js":[function(require,module,exports) {
+},{"events":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/events/events.js","./internal/streams/stream":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/lib/internal/streams/stream-browser.js","buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/buffer/index.js","util":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/src/builtins/_empty.js","./internal/streams/buffer_list":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/lib/internal/streams/buffer_list.js","./internal/streams/destroy":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/lib/internal/streams/destroy.js","./internal/streams/state":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/lib/internal/streams/state.js","../errors":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/errors-browser.js","inherits":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js","./_stream_duplex":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/lib/_stream_duplex.js","string_decoder/":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/string_decoder/lib/string_decoder.js","./internal/streams/async_iterator":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/lib/internal/streams/async_iterator.js","./internal/streams/from":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/lib/internal/streams/from-browser.js","process":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/process/browser.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/lib/_stream_transform.js":[function(require,module,exports) {
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -39770,7 +39770,7 @@ function done(stream, er, data) {
   if (stream._transformState.transforming) throw new ERR_TRANSFORM_ALREADY_TRANSFORMING();
   return stream.push(null);
 }
-},{"../errors":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/errors-browser.js","./_stream_duplex":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/lib/_stream_duplex.js","inherits":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/lib/_stream_passthrough.js":[function(require,module,exports) {
+},{"../errors":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/errors-browser.js","./_stream_duplex":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/lib/_stream_duplex.js","inherits":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/lib/_stream_passthrough.js":[function(require,module,exports) {
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -39810,7 +39810,7 @@ function PassThrough(options) {
 PassThrough.prototype._transform = function (chunk, encoding, cb) {
   cb(null, chunk);
 };
-},{"./_stream_transform":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/lib/_stream_transform.js","inherits":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/lib/internal/streams/pipeline.js":[function(require,module,exports) {
+},{"./_stream_transform":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/lib/_stream_transform.js","inherits":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/lib/internal/streams/pipeline.js":[function(require,module,exports) {
 // Ported from https://github.com/mafintosh/pump with
 // permission from the author, Mathias Buus (@mafintosh).
 'use strict';
@@ -39908,7 +39908,7 @@ function pipeline() {
 }
 
 module.exports = pipeline;
-},{"../../../errors":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/errors-browser.js","./end-of-stream":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/lib/internal/streams/end-of-stream.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/readable-browser.js":[function(require,module,exports) {
+},{"../../../errors":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/errors-browser.js","./end-of-stream":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/lib/internal/streams/end-of-stream.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/readable-browser.js":[function(require,module,exports) {
 exports = module.exports = require('./lib/_stream_readable.js');
 exports.Stream = exports;
 exports.Readable = exports;
@@ -39918,7 +39918,7 @@ exports.Transform = require('./lib/_stream_transform.js');
 exports.PassThrough = require('./lib/_stream_passthrough.js');
 exports.finished = require('./lib/internal/streams/end-of-stream.js');
 exports.pipeline = require('./lib/internal/streams/pipeline.js');
-},{"./lib/_stream_readable.js":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/lib/_stream_readable.js","./lib/_stream_writable.js":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/lib/_stream_writable.js","./lib/_stream_duplex.js":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/lib/_stream_duplex.js","./lib/_stream_transform.js":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/lib/_stream_transform.js","./lib/_stream_passthrough.js":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/lib/_stream_passthrough.js","./lib/internal/streams/end-of-stream.js":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/lib/internal/streams/end-of-stream.js","./lib/internal/streams/pipeline.js":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/lib/internal/streams/pipeline.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-rsa/node_modules/bn.js/lib/bn.js":[function(require,module,exports) {
+},{"./lib/_stream_readable.js":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/lib/_stream_readable.js","./lib/_stream_writable.js":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/lib/_stream_writable.js","./lib/_stream_duplex.js":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/lib/_stream_duplex.js","./lib/_stream_transform.js":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/lib/_stream_transform.js","./lib/_stream_passthrough.js":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/lib/_stream_passthrough.js","./lib/internal/streams/end-of-stream.js":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/lib/internal/streams/end-of-stream.js","./lib/internal/streams/pipeline.js":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/lib/internal/streams/pipeline.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-rsa/node_modules/bn.js/lib/bn.js":[function(require,module,exports) {
 var Buffer = require("buffer").Buffer;
 (function (module, exports) {
   'use strict';
@@ -43354,7 +43354,7 @@ var Buffer = require("buffer").Buffer;
   };
 })(typeof module === 'undefined' || module, this);
 
-},{"buffer":"../../../AppData/Roaming/npm/node_modules/parcel/src/builtins/_empty.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-rsa/index.js":[function(require,module,exports) {
+},{"buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/src/builtins/_empty.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-rsa/index.js":[function(require,module,exports) {
 var Buffer = require("buffer").Buffer;
 var bn = require('bn.js');
 var randomBytes = require('randombytes');
@@ -43397,7 +43397,7 @@ function getr(priv) {
   return r;
 }
 
-},{"bn.js":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-rsa/node_modules/bn.js/lib/bn.js","randombytes":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/randombytes/browser.js","buffer":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/buffer/index.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/package.json":[function(require,module,exports) {
+},{"bn.js":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-rsa/node_modules/bn.js/lib/bn.js","randombytes":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/randombytes/browser.js","buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/buffer/index.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/package.json":[function(require,module,exports) {
 module.exports = {
   "_from": "elliptic@^6.5.3",
   "_id": "elliptic@6.5.3",
@@ -43486,7 +43486,7 @@ module.exports = {
   "version": "6.5.3"
 }
 ;
-},{}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/node_modules/bn.js/lib/bn.js":[function(require,module,exports) {
+},{}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/node_modules/bn.js/lib/bn.js":[function(require,module,exports) {
 var Buffer = require("buffer").Buffer;
 (function (module, exports) {
   'use strict';
@@ -46922,7 +46922,7 @@ var Buffer = require("buffer").Buffer;
   };
 })(typeof module === 'undefined' || module, this);
 
-},{"buffer":"../../../AppData/Roaming/npm/node_modules/parcel/src/builtins/_empty.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/minimalistic-crypto-utils/lib/utils.js":[function(require,module,exports) {
+},{"buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/src/builtins/_empty.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/minimalistic-crypto-utils/lib/utils.js":[function(require,module,exports) {
 'use strict';
 
 var utils = exports;
@@ -46982,7 +46982,7 @@ utils.encode = function encode(arr, enc) {
     return arr;
 };
 
-},{}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/utils.js":[function(require,module,exports) {
+},{}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/utils.js":[function(require,module,exports) {
 'use strict';
 
 var utils = exports;
@@ -47103,7 +47103,7 @@ function intFromLE(bytes) {
 utils.intFromLE = intFromLE;
 
 
-},{"bn.js":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/node_modules/bn.js/lib/bn.js","minimalistic-assert":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/minimalistic-assert/index.js","minimalistic-crypto-utils":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/minimalistic-crypto-utils/lib/utils.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/curve/base.js":[function(require,module,exports) {
+},{"bn.js":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/node_modules/bn.js/lib/bn.js","minimalistic-assert":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/minimalistic-assert/index.js","minimalistic-crypto-utils":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/minimalistic-crypto-utils/lib/utils.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/curve/base.js":[function(require,module,exports) {
 'use strict';
 
 var BN = require('bn.js');
@@ -47481,7 +47481,7 @@ BasePoint.prototype.dblp = function dblp(k) {
   return r;
 };
 
-},{"bn.js":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/node_modules/bn.js/lib/bn.js","../utils":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/utils.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/curve/short.js":[function(require,module,exports) {
+},{"bn.js":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/node_modules/bn.js/lib/bn.js","../utils":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/utils.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/curve/short.js":[function(require,module,exports) {
 'use strict';
 
 var utils = require('../utils');
@@ -48420,7 +48420,7 @@ JPoint.prototype.isInfinity = function isInfinity() {
   return this.z.cmpn(0) === 0;
 };
 
-},{"../utils":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/utils.js","bn.js":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/node_modules/bn.js/lib/bn.js","inherits":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js","./base":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/curve/base.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/curve/mont.js":[function(require,module,exports) {
+},{"../utils":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/utils.js","bn.js":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/node_modules/bn.js/lib/bn.js","inherits":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js","./base":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/curve/base.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/curve/mont.js":[function(require,module,exports) {
 'use strict';
 
 var BN = require('bn.js');
@@ -48600,7 +48600,7 @@ Point.prototype.getX = function getX() {
   return this.x.fromRed();
 };
 
-},{"bn.js":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/node_modules/bn.js/lib/bn.js","inherits":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js","./base":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/curve/base.js","../utils":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/utils.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/curve/edwards.js":[function(require,module,exports) {
+},{"bn.js":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/node_modules/bn.js/lib/bn.js","inherits":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js","./base":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/curve/base.js","../utils":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/utils.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/curve/edwards.js":[function(require,module,exports) {
 'use strict';
 
 var utils = require('../utils');
@@ -49034,7 +49034,7 @@ Point.prototype.eqXToP = function eqXToP(x) {
 Point.prototype.toP = Point.prototype.normalize;
 Point.prototype.mixedAdd = Point.prototype.add;
 
-},{"../utils":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/utils.js","bn.js":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/node_modules/bn.js/lib/bn.js","inherits":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js","./base":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/curve/base.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/curve/index.js":[function(require,module,exports) {
+},{"../utils":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/utils.js","bn.js":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/node_modules/bn.js/lib/bn.js","inherits":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js","./base":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/curve/base.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/curve/index.js":[function(require,module,exports) {
 'use strict';
 
 var curve = exports;
@@ -49044,7 +49044,7 @@ curve.short = require('./short');
 curve.mont = require('./mont');
 curve.edwards = require('./edwards');
 
-},{"./base":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/curve/base.js","./short":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/curve/short.js","./mont":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/curve/mont.js","./edwards":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/curve/edwards.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash/utils.js":[function(require,module,exports) {
+},{"./base":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/curve/base.js","./short":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/curve/short.js","./mont":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/curve/mont.js","./edwards":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/curve/edwards.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash/utils.js":[function(require,module,exports) {
 'use strict';
 
 var assert = require('minimalistic-assert');
@@ -49324,7 +49324,7 @@ function shr64_lo(ah, al, num) {
 }
 exports.shr64_lo = shr64_lo;
 
-},{"minimalistic-assert":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/minimalistic-assert/index.js","inherits":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash/common.js":[function(require,module,exports) {
+},{"minimalistic-assert":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/minimalistic-assert/index.js","inherits":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash/common.js":[function(require,module,exports) {
 'use strict';
 
 var utils = require('./utils');
@@ -49418,7 +49418,7 @@ BlockHash.prototype._pad = function pad() {
   return res;
 };
 
-},{"./utils":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash/utils.js","minimalistic-assert":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/minimalistic-assert/index.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash/sha/common.js":[function(require,module,exports) {
+},{"./utils":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash/utils.js","minimalistic-assert":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/minimalistic-assert/index.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash/sha/common.js":[function(require,module,exports) {
 'use strict';
 
 var utils = require('../utils');
@@ -49469,7 +49469,7 @@ function g1_256(x) {
 }
 exports.g1_256 = g1_256;
 
-},{"../utils":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash/utils.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash/sha/1.js":[function(require,module,exports) {
+},{"../utils":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash/utils.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash/sha/1.js":[function(require,module,exports) {
 'use strict';
 
 var utils = require('../utils');
@@ -49545,7 +49545,7 @@ SHA1.prototype._digest = function digest(enc) {
     return utils.split32(this.h, 'big');
 };
 
-},{"../utils":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash/utils.js","../common":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash/common.js","./common":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash/sha/common.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash/sha/256.js":[function(require,module,exports) {
+},{"../utils":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash/utils.js","../common":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash/common.js","./common":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash/sha/common.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash/sha/256.js":[function(require,module,exports) {
 'use strict';
 
 var utils = require('../utils');
@@ -49652,7 +49652,7 @@ SHA256.prototype._digest = function digest(enc) {
     return utils.split32(this.h, 'big');
 };
 
-},{"../utils":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash/utils.js","../common":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash/common.js","./common":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash/sha/common.js","minimalistic-assert":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/minimalistic-assert/index.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash/sha/224.js":[function(require,module,exports) {
+},{"../utils":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash/utils.js","../common":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash/common.js","./common":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash/sha/common.js","minimalistic-assert":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/minimalistic-assert/index.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash/sha/224.js":[function(require,module,exports) {
 'use strict';
 
 var utils = require('../utils');
@@ -49684,7 +49684,7 @@ SHA224.prototype._digest = function digest(enc) {
 };
 
 
-},{"../utils":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash/utils.js","./256":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash/sha/256.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash/sha/512.js":[function(require,module,exports) {
+},{"../utils":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash/utils.js","./256":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash/sha/256.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash/sha/512.js":[function(require,module,exports) {
 'use strict';
 
 var utils = require('../utils');
@@ -50016,7 +50016,7 @@ function g1_512_lo(xh, xl) {
   return r;
 }
 
-},{"../utils":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash/utils.js","../common":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash/common.js","minimalistic-assert":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/minimalistic-assert/index.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash/sha/384.js":[function(require,module,exports) {
+},{"../utils":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash/utils.js","../common":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash/common.js","minimalistic-assert":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/minimalistic-assert/index.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash/sha/384.js":[function(require,module,exports) {
 'use strict';
 
 var utils = require('../utils');
@@ -50053,7 +50053,7 @@ SHA384.prototype._digest = function digest(enc) {
     return utils.split32(this.h.slice(0, 12), 'big');
 };
 
-},{"../utils":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash/utils.js","./512":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash/sha/512.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash/sha.js":[function(require,module,exports) {
+},{"../utils":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash/utils.js","./512":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash/sha/512.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash/sha.js":[function(require,module,exports) {
 'use strict';
 
 exports.sha1 = require('./sha/1');
@@ -50062,7 +50062,7 @@ exports.sha256 = require('./sha/256');
 exports.sha384 = require('./sha/384');
 exports.sha512 = require('./sha/512');
 
-},{"./sha/1":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash/sha/1.js","./sha/224":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash/sha/224.js","./sha/256":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash/sha/256.js","./sha/384":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash/sha/384.js","./sha/512":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash/sha/512.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash/ripemd.js":[function(require,module,exports) {
+},{"./sha/1":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash/sha/1.js","./sha/224":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash/sha/224.js","./sha/256":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash/sha/256.js","./sha/384":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash/sha/384.js","./sha/512":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash/sha/512.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash/ripemd.js":[function(require,module,exports) {
 'use strict';
 
 var utils = require('./utils');
@@ -50210,7 +50210,7 @@ var sh = [
   8, 5, 12, 9, 12, 5, 14, 6, 8, 13, 6, 5, 15, 13, 11, 11
 ];
 
-},{"./utils":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash/utils.js","./common":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash/common.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash/hmac.js":[function(require,module,exports) {
+},{"./utils":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash/utils.js","./common":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash/common.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash/hmac.js":[function(require,module,exports) {
 'use strict';
 
 var utils = require('./utils');
@@ -50259,7 +50259,7 @@ Hmac.prototype.digest = function digest(enc) {
   return this.outer.digest(enc);
 };
 
-},{"./utils":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash/utils.js","minimalistic-assert":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/minimalistic-assert/index.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash.js":[function(require,module,exports) {
+},{"./utils":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash/utils.js","minimalistic-assert":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/minimalistic-assert/index.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash.js":[function(require,module,exports) {
 var hash = exports;
 
 hash.utils = require('./hash/utils');
@@ -50276,7 +50276,7 @@ hash.sha384 = hash.sha.sha384;
 hash.sha512 = hash.sha.sha512;
 hash.ripemd160 = hash.ripemd.ripemd160;
 
-},{"./hash/utils":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash/utils.js","./hash/common":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash/common.js","./hash/sha":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash/sha.js","./hash/ripemd":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash/ripemd.js","./hash/hmac":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash/hmac.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/precomputed/secp256k1.js":[function(require,module,exports) {
+},{"./hash/utils":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash/utils.js","./hash/common":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash/common.js","./hash/sha":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash/sha.js","./hash/ripemd":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash/ripemd.js","./hash/hmac":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash/hmac.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/precomputed/secp256k1.js":[function(require,module,exports) {
 module.exports = {
   doubles: {
     step: 4,
@@ -51058,7 +51058,7 @@ module.exports = {
   }
 };
 
-},{}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/curves.js":[function(require,module,exports) {
+},{}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/curves.js":[function(require,module,exports) {
 'use strict';
 
 var curves = exports;
@@ -51266,7 +51266,7 @@ defineCurve('secp256k1', {
   ]
 });
 
-},{"hash.js":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash.js","./curve":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/curve/index.js","./utils":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/utils.js","./precomputed/secp256k1":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/precomputed/secp256k1.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hmac-drbg/lib/hmac-drbg.js":[function(require,module,exports) {
+},{"hash.js":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash.js","./curve":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/curve/index.js","./utils":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/utils.js","./precomputed/secp256k1":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/precomputed/secp256k1.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hmac-drbg/lib/hmac-drbg.js":[function(require,module,exports) {
 'use strict';
 
 var hash = require('hash.js');
@@ -51381,7 +51381,7 @@ HmacDRBG.prototype.generate = function generate(len, enc, add, addEnc) {
   return utils.encode(res, enc);
 };
 
-},{"hash.js":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash.js","minimalistic-crypto-utils":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/minimalistic-crypto-utils/lib/utils.js","minimalistic-assert":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/minimalistic-assert/index.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/ec/key.js":[function(require,module,exports) {
+},{"hash.js":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash.js","minimalistic-crypto-utils":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/minimalistic-crypto-utils/lib/utils.js","minimalistic-assert":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/minimalistic-assert/index.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/ec/key.js":[function(require,module,exports) {
 'use strict';
 
 var BN = require('bn.js');
@@ -51501,7 +51501,7 @@ KeyPair.prototype.inspect = function inspect() {
          ' pub: ' + (this.pub && this.pub.inspect()) + ' >';
 };
 
-},{"bn.js":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/node_modules/bn.js/lib/bn.js","../utils":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/utils.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/ec/signature.js":[function(require,module,exports) {
+},{"bn.js":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/node_modules/bn.js/lib/bn.js","../utils":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/utils.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/ec/signature.js":[function(require,module,exports) {
 'use strict';
 
 var BN = require('bn.js');
@@ -51669,7 +51669,7 @@ Signature.prototype.toDER = function toDER(enc) {
   return utils.encode(res, enc);
 };
 
-},{"bn.js":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/node_modules/bn.js/lib/bn.js","../utils":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/utils.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/ec/index.js":[function(require,module,exports) {
+},{"bn.js":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/node_modules/bn.js/lib/bn.js","../utils":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/utils.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/ec/index.js":[function(require,module,exports) {
 'use strict';
 
 var BN = require('bn.js');
@@ -51912,7 +51912,7 @@ EC.prototype.getKeyRecoveryParam = function(e, signature, Q, enc) {
   throw new Error('Unable to find valid recovery factor');
 };
 
-},{"bn.js":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/node_modules/bn.js/lib/bn.js","hmac-drbg":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hmac-drbg/lib/hmac-drbg.js","../utils":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/utils.js","../curves":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/curves.js","brorand":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/brorand/index.js","./key":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/ec/key.js","./signature":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/ec/signature.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/eddsa/key.js":[function(require,module,exports) {
+},{"bn.js":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/node_modules/bn.js/lib/bn.js","hmac-drbg":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hmac-drbg/lib/hmac-drbg.js","../utils":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/utils.js","../curves":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/curves.js","brorand":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/brorand/index.js","./key":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/ec/key.js","./signature":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/ec/signature.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/eddsa/key.js":[function(require,module,exports) {
 'use strict';
 
 var utils = require('../utils');
@@ -52009,7 +52009,7 @@ KeyPair.prototype.getPublic = function getPublic(enc) {
 
 module.exports = KeyPair;
 
-},{"../utils":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/utils.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/eddsa/signature.js":[function(require,module,exports) {
+},{"../utils":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/utils.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/eddsa/signature.js":[function(require,module,exports) {
 'use strict';
 
 var BN = require('bn.js');
@@ -52076,7 +52076,7 @@ Signature.prototype.toHex = function toHex() {
 
 module.exports = Signature;
 
-},{"bn.js":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/node_modules/bn.js/lib/bn.js","../utils":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/utils.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/eddsa/index.js":[function(require,module,exports) {
+},{"bn.js":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/node_modules/bn.js/lib/bn.js","../utils":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/utils.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/eddsa/index.js":[function(require,module,exports) {
 'use strict';
 
 var hash = require('hash.js');
@@ -52196,7 +52196,7 @@ EDDSA.prototype.isPoint = function isPoint(val) {
   return val instanceof this.pointClass;
 };
 
-},{"hash.js":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash.js","../curves":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/curves.js","../utils":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/utils.js","./key":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/eddsa/key.js","./signature":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/eddsa/signature.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic.js":[function(require,module,exports) {
+},{"hash.js":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/hash.js/lib/hash.js","../curves":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/curves.js","../utils":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/utils.js","./key":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/eddsa/key.js","./signature":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/eddsa/signature.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic.js":[function(require,module,exports) {
 'use strict';
 
 var elliptic = exports;
@@ -52211,7 +52211,7 @@ elliptic.curves = require('./elliptic/curves');
 elliptic.ec = require('./elliptic/ec');
 elliptic.eddsa = require('./elliptic/eddsa');
 
-},{"../package.json":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/package.json","./elliptic/utils":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/utils.js","brorand":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/brorand/index.js","./elliptic/curve":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/curve/index.js","./elliptic/curves":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/curves.js","./elliptic/ec":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/ec/index.js","./elliptic/eddsa":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/eddsa/index.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/bn.js/lib/bn.js":[function(require,module,exports) {
+},{"../package.json":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/package.json","./elliptic/utils":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/utils.js","brorand":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/brorand/index.js","./elliptic/curve":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/curve/index.js","./elliptic/curves":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/curves.js","./elliptic/ec":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/ec/index.js","./elliptic/eddsa":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic/eddsa/index.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/bn.js/lib/bn.js":[function(require,module,exports) {
 var Buffer = require("buffer").Buffer;
 (function (module, exports) {
   'use strict';
@@ -55754,7 +55754,7 @@ var Buffer = require("buffer").Buffer;
   };
 })(typeof module === 'undefined' || module, this);
 
-},{"buffer":"../../../AppData/Roaming/npm/node_modules/parcel/src/builtins/_empty.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/node_modules/bn.js/lib/bn.js":[function(require,module,exports) {
+},{"buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/src/builtins/_empty.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/node_modules/bn.js/lib/bn.js":[function(require,module,exports) {
 var Buffer = require("buffer").Buffer;
 (function (module, exports) {
   'use strict';
@@ -59190,7 +59190,7 @@ var Buffer = require("buffer").Buffer;
   };
 })(typeof module === 'undefined' || module, this);
 
-},{"buffer":"../../../AppData/Roaming/npm/node_modules/parcel/src/builtins/_empty.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/safer-buffer/safer.js":[function(require,module,exports) {
+},{"buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/src/builtins/_empty.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/safer-buffer/safer.js":[function(require,module,exports) {
 
 var process = require("process");
 /* eslint-disable node/no-deprecated-api */
@@ -59271,7 +59271,7 @@ if (!safer.constants) {
 
 module.exports = safer
 
-},{"buffer":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/buffer/index.js","process":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/process/browser.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1/base/reporter.js":[function(require,module,exports) {
+},{"buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/buffer/index.js","process":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/process/browser.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1/base/reporter.js":[function(require,module,exports) {
 'use strict';
 
 const inherits = require('inherits');
@@ -59396,7 +59396,7 @@ ReporterError.prototype.rethrow = function rethrow(msg) {
   return this;
 };
 
-},{"inherits":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1/base/buffer.js":[function(require,module,exports) {
+},{"inherits":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1/base/buffer.js":[function(require,module,exports) {
 
 'use strict';
 
@@ -59552,7 +59552,7 @@ EncoderBuffer.prototype.join = function join(out, offset) {
   return out;
 };
 
-},{"inherits":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js","../base/reporter":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1/base/reporter.js","safer-buffer":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/safer-buffer/safer.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1/base/node.js":[function(require,module,exports) {
+},{"inherits":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js","../base/reporter":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1/base/reporter.js","safer-buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/safer-buffer/safer.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1/base/node.js":[function(require,module,exports) {
 'use strict';
 
 const Reporter = require('../base/reporter').Reporter;
@@ -60192,7 +60192,7 @@ Node.prototype._isPrintstr = function isPrintstr(str) {
   return /^[A-Za-z0-9 '()+,-./:=?]*$/.test(str);
 };
 
-},{"../base/reporter":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1/base/reporter.js","../base/buffer":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1/base/buffer.js","minimalistic-assert":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/minimalistic-assert/index.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1/constants/der.js":[function(require,module,exports) {
+},{"../base/reporter":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1/base/reporter.js","../base/buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1/base/buffer.js","minimalistic-assert":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/minimalistic-assert/index.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1/constants/der.js":[function(require,module,exports) {
 'use strict';
 
 // Helper
@@ -60252,7 +60252,7 @@ exports.tag = {
 };
 exports.tagByName = reverse(exports.tag);
 
-},{}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1/encoders/der.js":[function(require,module,exports) {
+},{}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1/encoders/der.js":[function(require,module,exports) {
 
 'use strict';
 
@@ -60550,7 +60550,7 @@ function encodeTag(tag, primitive, cls, reporter) {
   return res;
 }
 
-},{"inherits":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js","safer-buffer":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/safer-buffer/safer.js","../base/node":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1/base/node.js","../constants/der":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1/constants/der.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1/encoders/pem.js":[function(require,module,exports) {
+},{"inherits":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js","safer-buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/safer-buffer/safer.js","../base/node":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1/base/node.js","../constants/der":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1/constants/der.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1/encoders/pem.js":[function(require,module,exports) {
 'use strict';
 
 const inherits = require('inherits');
@@ -60575,7 +60575,7 @@ PEMEncoder.prototype.encode = function encode(data, options) {
   return out.join('\n');
 };
 
-},{"inherits":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js","./der":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1/encoders/der.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1/encoders/index.js":[function(require,module,exports) {
+},{"inherits":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js","./der":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1/encoders/der.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1/encoders/index.js":[function(require,module,exports) {
 'use strict';
 
 const encoders = exports;
@@ -60583,7 +60583,7 @@ const encoders = exports;
 encoders.der = require('./der');
 encoders.pem = require('./pem');
 
-},{"./der":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1/encoders/der.js","./pem":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1/encoders/pem.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1/decoders/der.js":[function(require,module,exports) {
+},{"./der":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1/encoders/der.js","./pem":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1/encoders/pem.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1/decoders/der.js":[function(require,module,exports) {
 'use strict';
 
 const inherits = require('inherits');
@@ -60920,7 +60920,7 @@ function derDecodeLen(buf, primitive, fail) {
   return len;
 }
 
-},{"inherits":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js","bn.js":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/node_modules/bn.js/lib/bn.js","../base/buffer":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1/base/buffer.js","../base/node":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1/base/node.js","../constants/der":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1/constants/der.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1/decoders/pem.js":[function(require,module,exports) {
+},{"inherits":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js","bn.js":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/node_modules/bn.js/lib/bn.js","../base/buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1/base/buffer.js","../base/node":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1/base/node.js","../constants/der":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1/constants/der.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1/decoders/pem.js":[function(require,module,exports) {
 
 'use strict';
 
@@ -60974,7 +60974,7 @@ PEMDecoder.prototype.decode = function decode(data, options) {
   return DERDecoder.prototype.decode.call(this, input, options);
 };
 
-},{"inherits":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js","safer-buffer":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/safer-buffer/safer.js","./der":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1/decoders/der.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1/decoders/index.js":[function(require,module,exports) {
+},{"inherits":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js","safer-buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/safer-buffer/safer.js","./der":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1/decoders/der.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1/decoders/index.js":[function(require,module,exports) {
 'use strict';
 
 const decoders = exports;
@@ -60982,7 +60982,7 @@ const decoders = exports;
 decoders.der = require('./der');
 decoders.pem = require('./pem');
 
-},{"./der":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1/decoders/der.js","./pem":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1/decoders/pem.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1/api.js":[function(require,module,exports) {
+},{"./der":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1/decoders/der.js","./pem":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1/decoders/pem.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1/api.js":[function(require,module,exports) {
 'use strict';
 
 const encoders = require('./encoders');
@@ -61041,7 +61041,7 @@ Entity.prototype.encode = function encode(data, enc, /* internal */ reporter) {
   return this._getEncoder(enc).encode(data, reporter);
 };
 
-},{"./encoders":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1/encoders/index.js","./decoders":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1/decoders/index.js","inherits":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1/base/index.js":[function(require,module,exports) {
+},{"./encoders":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1/encoders/index.js","./decoders":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1/decoders/index.js","inherits":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1/base/index.js":[function(require,module,exports) {
 'use strict';
 
 const base = exports;
@@ -61051,7 +61051,7 @@ base.DecoderBuffer = require('./buffer').DecoderBuffer;
 base.EncoderBuffer = require('./buffer').EncoderBuffer;
 base.Node = require('./node');
 
-},{"./reporter":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1/base/reporter.js","./buffer":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1/base/buffer.js","./node":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1/base/node.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1/constants/index.js":[function(require,module,exports) {
+},{"./reporter":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1/base/reporter.js","./buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1/base/buffer.js","./node":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1/base/node.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1/constants/index.js":[function(require,module,exports) {
 'use strict';
 
 const constants = exports;
@@ -61074,7 +61074,7 @@ constants._reverse = function reverse(map) {
 
 constants.der = require('./der');
 
-},{"./der":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1/constants/der.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1.js":[function(require,module,exports) {
+},{"./der":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1/constants/der.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1.js":[function(require,module,exports) {
 'use strict';
 
 const asn1 = exports;
@@ -61087,7 +61087,7 @@ asn1.constants = require('./asn1/constants');
 asn1.decoders = require('./asn1/decoders');
 asn1.encoders = require('./asn1/encoders');
 
-},{"bn.js":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/node_modules/bn.js/lib/bn.js","./asn1/api":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1/api.js","./asn1/base":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1/base/index.js","./asn1/constants":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1/constants/index.js","./asn1/decoders":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1/decoders/index.js","./asn1/encoders":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1/encoders/index.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/parse-asn1/certificate.js":[function(require,module,exports) {
+},{"bn.js":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/node_modules/bn.js/lib/bn.js","./asn1/api":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1/api.js","./asn1/base":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1/base/index.js","./asn1/constants":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1/constants/index.js","./asn1/decoders":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1/decoders/index.js","./asn1/encoders":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1/encoders/index.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/parse-asn1/certificate.js":[function(require,module,exports) {
 // from https://github.com/Rantanen/node-dtls/blob/25a7dc861bda38cfeac93a723500eea4f0ac2e86/Certificate.js
 // thanks to @Rantanen
 
@@ -61178,7 +61178,7 @@ var X509Certificate = asn.define('X509Certificate', function () {
 
 module.exports = X509Certificate
 
-},{"asn1.js":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/parse-asn1/asn1.js":[function(require,module,exports) {
+},{"asn1.js":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/parse-asn1/asn1.js":[function(require,module,exports) {
 // from https://github.com/indutny/self-signed/blob/gh-pages/lib/asn1.js
 // Fedor, you are amazing.
 'use strict'
@@ -61302,7 +61302,7 @@ exports.signature = asn1.define('signature', function () {
   )
 })
 
-},{"asn1.js":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1.js","./certificate":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/parse-asn1/certificate.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/parse-asn1/aesid.json":[function(require,module,exports) {
+},{"asn1.js":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/asn1.js/lib/asn1.js","./certificate":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/parse-asn1/certificate.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/parse-asn1/aesid.json":[function(require,module,exports) {
 module.exports = {"2.16.840.1.101.3.4.1.1": "aes-128-ecb",
 "2.16.840.1.101.3.4.1.2": "aes-128-cbc",
 "2.16.840.1.101.3.4.1.3": "aes-128-ofb",
@@ -61316,7 +61316,7 @@ module.exports = {"2.16.840.1.101.3.4.1.1": "aes-128-ecb",
 "2.16.840.1.101.3.4.1.43": "aes-256-ofb",
 "2.16.840.1.101.3.4.1.44": "aes-256-cfb"
 };
-},{}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/parse-asn1/fixProc.js":[function(require,module,exports) {
+},{}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/parse-asn1/fixProc.js":[function(require,module,exports) {
 
 // adapted from https://github.com/apatil/pemstrip
 var findProc = /Proc-Type: 4,ENCRYPTED[\n\r]+DEK-Info: AES-((?:128)|(?:192)|(?:256))-CBC,([0-9A-H]+)[\n\r]+([0-9A-z\n\r+/=]+)[\n\r]+/m
@@ -61350,7 +61350,7 @@ module.exports = function (okey, password) {
   }
 }
 
-},{"evp_bytestokey":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/evp_bytestokey/index.js","browserify-aes":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/browser.js","safe-buffer":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/parse-asn1/index.js":[function(require,module,exports) {
+},{"evp_bytestokey":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/evp_bytestokey/index.js","browserify-aes":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/browser.js","safe-buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/parse-asn1/index.js":[function(require,module,exports) {
 
 var asn1 = require('./asn1')
 var aesid = require('./aesid.json')
@@ -61460,7 +61460,7 @@ function decrypt (data, password) {
   return Buffer.concat(out)
 }
 
-},{"./asn1":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/parse-asn1/asn1.js","./aesid.json":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/parse-asn1/aesid.json","./fixProc":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/parse-asn1/fixProc.js","browserify-aes":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/browser.js","pbkdf2":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/pbkdf2/browser.js","safe-buffer":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/browser/curves.json":[function(require,module,exports) {
+},{"./asn1":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/parse-asn1/asn1.js","./aesid.json":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/parse-asn1/aesid.json","./fixProc":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/parse-asn1/fixProc.js","browserify-aes":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-aes/browser.js","pbkdf2":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/pbkdf2/browser.js","safe-buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/browser/curves.json":[function(require,module,exports) {
 module.exports = {
   "1.3.132.0.10": "secp256k1",
   "1.3.132.0.33": "p224",
@@ -61470,7 +61470,7 @@ module.exports = {
   "1.3.132.0.35": "p521"
 }
 ;
-},{}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/browser/sign.js":[function(require,module,exports) {
+},{}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/browser/sign.js":[function(require,module,exports) {
 
 // much of this based on https://github.com/indutny/self-signed/blob/gh-pages/lib/rsa.js
 var Buffer = require('safe-buffer').Buffer
@@ -61616,7 +61616,7 @@ module.exports = sign
 module.exports.getKey = getKey
 module.exports.makeKey = makeKey
 
-},{"safe-buffer":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/safe-buffer/index.js","create-hmac":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/create-hmac/browser.js","browserify-rsa":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-rsa/index.js","elliptic":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic.js","bn.js":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/bn.js/lib/bn.js","parse-asn1":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/parse-asn1/index.js","./curves.json":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/browser/curves.json"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/browser/verify.js":[function(require,module,exports) {
+},{"safe-buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/safe-buffer/index.js","create-hmac":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/create-hmac/browser.js","browserify-rsa":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-rsa/index.js","elliptic":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic.js","bn.js":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/bn.js/lib/bn.js","parse-asn1":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/parse-asn1/index.js","./curves.json":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/browser/curves.json"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/browser/verify.js":[function(require,module,exports) {
 
 // much of this based on https://github.com/indutny/self-signed/blob/gh-pages/lib/rsa.js
 var Buffer = require('safe-buffer').Buffer
@@ -61703,7 +61703,7 @@ function checkValue (b, q) {
 
 module.exports = verify
 
-},{"safe-buffer":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/safe-buffer/index.js","bn.js":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/bn.js/lib/bn.js","elliptic":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic.js","parse-asn1":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/parse-asn1/index.js","./curves.json":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/browser/curves.json"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/browser/index.js":[function(require,module,exports) {
+},{"safe-buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/safe-buffer/index.js","bn.js":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/bn.js/lib/bn.js","elliptic":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic.js","parse-asn1":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/parse-asn1/index.js","./curves.json":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/browser/curves.json"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/browser/index.js":[function(require,module,exports) {
 
 var Buffer = require('safe-buffer').Buffer
 var createHash = require('create-hash')
@@ -61798,7 +61798,7 @@ module.exports = {
   createVerify: createVerify
 }
 
-},{"safe-buffer":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/safe-buffer/index.js","create-hash":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/create-hash/browser.js","readable-stream":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/readable-browser.js","inherits":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js","./sign":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/browser/sign.js","./verify":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/browser/verify.js","./algorithms.json":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/browser/algorithms.json"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/create-ecdh/node_modules/bn.js/lib/bn.js":[function(require,module,exports) {
+},{"safe-buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/safe-buffer/index.js","create-hash":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/create-hash/browser.js","readable-stream":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/node_modules/readable-stream/readable-browser.js","inherits":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/inherits/inherits_browser.js","./sign":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/browser/sign.js","./verify":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/browser/verify.js","./algorithms.json":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/browser/algorithms.json"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/create-ecdh/node_modules/bn.js/lib/bn.js":[function(require,module,exports) {
 var Buffer = require("buffer").Buffer;
 (function (module, exports) {
   'use strict';
@@ -65234,7 +65234,7 @@ var Buffer = require("buffer").Buffer;
   };
 })(typeof module === 'undefined' || module, this);
 
-},{"buffer":"../../../AppData/Roaming/npm/node_modules/parcel/src/builtins/_empty.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/create-ecdh/browser.js":[function(require,module,exports) {
+},{"buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/src/builtins/_empty.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/create-ecdh/browser.js":[function(require,module,exports) {
 var Buffer = require("buffer").Buffer;
 var elliptic = require('elliptic')
 var BN = require('bn.js')
@@ -65361,7 +65361,7 @@ function formatReturnValue (bn, enc, len) {
   }
 }
 
-},{"elliptic":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic.js","bn.js":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/create-ecdh/node_modules/bn.js/lib/bn.js","buffer":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/buffer/index.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/public-encrypt/mgf.js":[function(require,module,exports) {
+},{"elliptic":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/elliptic/lib/elliptic.js","bn.js":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/create-ecdh/node_modules/bn.js/lib/bn.js","buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/buffer/index.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/public-encrypt/mgf.js":[function(require,module,exports) {
 
 var createHash = require('create-hash')
 var Buffer = require('safe-buffer').Buffer
@@ -65383,7 +65383,7 @@ function i2ops (c) {
   return out
 }
 
-},{"create-hash":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/create-hash/browser.js","safe-buffer":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/public-encrypt/xor.js":[function(require,module,exports) {
+},{"create-hash":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/create-hash/browser.js","safe-buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/public-encrypt/xor.js":[function(require,module,exports) {
 module.exports = function xor (a, b) {
   var len = a.length
   var i = -1
@@ -65393,7 +65393,7 @@ module.exports = function xor (a, b) {
   return a
 }
 
-},{}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/public-encrypt/node_modules/bn.js/lib/bn.js":[function(require,module,exports) {
+},{}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/public-encrypt/node_modules/bn.js/lib/bn.js":[function(require,module,exports) {
 var Buffer = require("buffer").Buffer;
 (function (module, exports) {
   'use strict';
@@ -68829,7 +68829,7 @@ var Buffer = require("buffer").Buffer;
   };
 })(typeof module === 'undefined' || module, this);
 
-},{"buffer":"../../../AppData/Roaming/npm/node_modules/parcel/src/builtins/_empty.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/public-encrypt/withPublic.js":[function(require,module,exports) {
+},{"buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/src/builtins/_empty.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/public-encrypt/withPublic.js":[function(require,module,exports) {
 
 var BN = require('bn.js')
 var Buffer = require('safe-buffer').Buffer
@@ -68844,7 +68844,7 @@ function withPublic (paddedMsg, key) {
 
 module.exports = withPublic
 
-},{"bn.js":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/public-encrypt/node_modules/bn.js/lib/bn.js","safe-buffer":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/public-encrypt/publicEncrypt.js":[function(require,module,exports) {
+},{"bn.js":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/public-encrypt/node_modules/bn.js/lib/bn.js","safe-buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/public-encrypt/publicEncrypt.js":[function(require,module,exports) {
 
 var parseKeys = require('parse-asn1')
 var randomBytes = require('randombytes')
@@ -68935,7 +68935,7 @@ function nonZero (len) {
   return out
 }
 
-},{"parse-asn1":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/parse-asn1/index.js","randombytes":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/randombytes/browser.js","create-hash":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/create-hash/browser.js","./mgf":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/public-encrypt/mgf.js","./xor":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/public-encrypt/xor.js","bn.js":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/public-encrypt/node_modules/bn.js/lib/bn.js","./withPublic":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/public-encrypt/withPublic.js","browserify-rsa":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-rsa/index.js","safe-buffer":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/public-encrypt/privateDecrypt.js":[function(require,module,exports) {
+},{"parse-asn1":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/parse-asn1/index.js","randombytes":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/randombytes/browser.js","create-hash":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/create-hash/browser.js","./mgf":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/public-encrypt/mgf.js","./xor":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/public-encrypt/xor.js","bn.js":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/public-encrypt/node_modules/bn.js/lib/bn.js","./withPublic":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/public-encrypt/withPublic.js","browserify-rsa":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-rsa/index.js","safe-buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/public-encrypt/privateDecrypt.js":[function(require,module,exports) {
 
 var parseKeys = require('parse-asn1')
 var mgf = require('./mgf')
@@ -69043,7 +69043,7 @@ function compare (a, b) {
   return dif
 }
 
-},{"parse-asn1":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/parse-asn1/index.js","./mgf":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/public-encrypt/mgf.js","./xor":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/public-encrypt/xor.js","bn.js":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/public-encrypt/node_modules/bn.js/lib/bn.js","browserify-rsa":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-rsa/index.js","create-hash":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/create-hash/browser.js","./withPublic":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/public-encrypt/withPublic.js","safe-buffer":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/public-encrypt/browser.js":[function(require,module,exports) {
+},{"parse-asn1":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/parse-asn1/index.js","./mgf":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/public-encrypt/mgf.js","./xor":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/public-encrypt/xor.js","bn.js":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/public-encrypt/node_modules/bn.js/lib/bn.js","browserify-rsa":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-rsa/index.js","create-hash":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/create-hash/browser.js","./withPublic":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/public-encrypt/withPublic.js","safe-buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/public-encrypt/browser.js":[function(require,module,exports) {
 exports.publicEncrypt = require('./publicEncrypt')
 exports.privateDecrypt = require('./privateDecrypt')
 
@@ -69055,7 +69055,7 @@ exports.publicDecrypt = function publicDecrypt (key, buf) {
   return exports.privateDecrypt(key, buf, true)
 }
 
-},{"./publicEncrypt":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/public-encrypt/publicEncrypt.js","./privateDecrypt":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/public-encrypt/privateDecrypt.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/randomfill/browser.js":[function(require,module,exports) {
+},{"./publicEncrypt":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/public-encrypt/publicEncrypt.js","./privateDecrypt":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/public-encrypt/privateDecrypt.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/randomfill/browser.js":[function(require,module,exports) {
 
 var global = arguments[3];
 var process = require("process");
@@ -69180,7 +69180,7 @@ function randomFillSync(buf, offset, size) {
   assertSize(size, offset, buf.length);
   return actualFill(buf, offset, size);
 }
-},{"safe-buffer":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js","randombytes":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/randombytes/browser.js","process":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/process/browser.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/crypto-browserify/index.js":[function(require,module,exports) {
+},{"safe-buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/safe-buffer/index.js","randombytes":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/randombytes/browser.js","process":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/process/browser.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/crypto-browserify/index.js":[function(require,module,exports) {
 'use strict'
 
 exports.randomBytes = exports.rng = exports.pseudoRandomBytes = exports.prng = require('randombytes')
@@ -69279,7 +69279,7 @@ exports.constants = {
   'POINT_CONVERSION_HYBRID': 6
 }
 
-},{"randombytes":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/randombytes/browser.js","create-hash":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/create-hash/browser.js","create-hmac":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/create-hmac/browser.js","browserify-sign/algos":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/algos.js","pbkdf2":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/pbkdf2/browser.js","browserify-cipher":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-cipher/browser.js","diffie-hellman":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/diffie-hellman/browser.js","browserify-sign":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/browser/index.js","create-ecdh":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/create-ecdh/browser.js","public-encrypt":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/public-encrypt/browser.js","randomfill":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/randomfill/browser.js"}],"node_modules/crypto-js/core.js":[function(require,module,exports) {
+},{"randombytes":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/randombytes/browser.js","create-hash":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/create-hash/browser.js","create-hmac":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/create-hmac/browser.js","browserify-sign/algos":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/algos.js","pbkdf2":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/pbkdf2/browser.js","browserify-cipher":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-cipher/browser.js","diffie-hellman":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/diffie-hellman/browser.js","browserify-sign":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/browserify-sign/browser/index.js","create-ecdh":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/create-ecdh/browser.js","public-encrypt":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/public-encrypt/browser.js","randomfill":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/randomfill/browser.js"}],"node_modules/crypto-js/core.js":[function(require,module,exports) {
 var define;
 var global = arguments[3];
 ;(function (root, factory) {
@@ -70079,7 +70079,7 @@ var global = arguments[3];
 	return CryptoJS;
 
 }));
-},{"crypto":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/crypto-browserify/index.js"}],"node_modules/crypto-js/enc-base64.js":[function(require,module,exports) {
+},{"crypto":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/crypto-browserify/index.js"}],"node_modules/crypto-js/enc-base64.js":[function(require,module,exports) {
 var define;
 ;(function (root, factory) {
 	if (typeof exports === "object") {
@@ -72732,7 +72732,7 @@ exports.XMLHttpRequest = function () {
     }
   };
 };
-},{"url":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/url/url.js","child_process":"../../../AppData/Roaming/npm/node_modules/parcel/src/builtins/_empty.js","fs":"../../../AppData/Roaming/npm/node_modules/parcel/src/builtins/_empty.js","http":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/stream-http/index.js","https":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/https-browserify/index.js","buffer":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/buffer/index.js","process":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/process/browser.js"}],"node_modules/parse/lib/node/RESTController.js":[function(require,module,exports) {
+},{"url":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/url/url.js","child_process":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/src/builtins/_empty.js","fs":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/src/builtins/_empty.js","http":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/stream-http/index.js","https":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/https-browserify/index.js","buffer":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/buffer/index.js","process":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/process/browser.js"}],"node_modules/parse/lib/node/RESTController.js":[function(require,module,exports) {
 var process = require("process");
 "use strict";
 
@@ -73180,7 +73180,7 @@ const RESTController = {
 
 };
 module.exports = RESTController;
-},{"./CoreManager":"node_modules/parse/lib/node/CoreManager.js","./ParseError":"node_modules/parse/lib/node/ParseError.js","./promiseUtils":"node_modules/parse/lib/node/promiseUtils.js","uuid/v4":"node_modules/uuid/v4.js","xmlhttprequest":"node_modules/xmlhttprequest/lib/XMLHttpRequest.js","process":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/process/browser.js"}],"node_modules/parse/lib/node/Analytics.js":[function(require,module,exports) {
+},{"./CoreManager":"node_modules/parse/lib/node/CoreManager.js","./ParseError":"node_modules/parse/lib/node/ParseError.js","./promiseUtils":"node_modules/parse/lib/node/promiseUtils.js","uuid/v4":"node_modules/uuid/v4.js","xmlhttprequest":"node_modules/xmlhttprequest/lib/XMLHttpRequest.js","process":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/process/browser.js"}],"node_modules/parse/lib/node/Analytics.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -75462,7 +75462,7 @@ exports.default = _default;
  */
 
 module.exports = require('events').EventEmitter;
-},{"events":"../../../AppData/Roaming/npm/node_modules/parcel/node_modules/events/events.js"}],"node_modules/parse/lib/node/LiveQuerySubscription.js":[function(require,module,exports) {
+},{"events":"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/node_modules/events/events.js"}],"node_modules/parse/lib/node/LiveQuerySubscription.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -76993,6 +76993,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.clearSchedule = clearSchedule;
 exports.changeWeek = changeWeek;
+exports.changeWeekDisplay = changeWeekDisplay;
 
 var Parse = require('parse/node');
 
@@ -77006,8 +77007,11 @@ window.onload = function () {
   if (typeof document !== 'undefined') {
     document.getElementById("change-week-button").addEventListener("click", changeWeek);
   }
+
+  changeWeekDisplay();
 };
 
+var isWeekEven = checkWeek();
 var schedule = Parse.Object.extend('schedule');
 var query = new Parse.Query(schedule);
 
@@ -77023,10 +77027,10 @@ function checkWeek() {
   var weeks = Math.floor((today - schedFirstDay) / oneDay / 7);
 
   if (Math.floor(weeks % 2) == 0) {
-    console.log("Week is even");
+    // console.log("Week is even");
     return true;
   } else {
-    console.log("Week is odd");
+    // console.log("Week is odd");
     return false;
   }
 }
@@ -77039,11 +77043,41 @@ function updateSchedule() {
       for (var i = 0; i < results.length; i++) {
         // console.log(results[i].get('name'));
         var num = results[i].get('num');
-        var day = results[i].get('day'); // console.log(`name-day${day}-para${num+1}`);
+        var day = results[i].get('day');
+        var time = "";
+
+        switch (num) {
+          case 0:
+            time = "8:00";
+            break;
+
+          case 1:
+            time = "9:45";
+            break;
+
+          case 2:
+            time = "11:30";
+            break;
+
+          case 3:
+            time = "13:55";
+            break;
+
+          case 4:
+            time = "15:40";
+            break;
+
+          default:
+            time = "";
+        } // console.log(`name-day${day}-para${num+1}`);
         // console.log(`type-day${day}-para${num+1}`);
+
 
         document.getElementById("name-day".concat(day, "-para").concat(num + 1)).innerText = results[i].get('name');
         document.getElementById("type-day".concat(day, "-para").concat(num + 1)).innerText = results[i].get('type');
+        document.getElementById("time-day".concat(day, "-para").concat(num + 1)).innerText = time;
+        document.getElementById("teacher-day".concat(day, "-para").concat(num + 1)).innerText = results[i].get('teacher');
+        document.getElementById("classroom-day".concat(day, "-para").concat(num + 1)).innerText = results[i].get('place');
       }
     }
   }, function (error) {
@@ -77053,36 +77087,41 @@ function updateSchedule() {
 }
 
 function clearSchedule() {
-  var paraTypes = document.getElementsByClassName("paraType");
-  var paraNames = document.getElementsByClassName("paraName");
-  Array.from(paraTypes).forEach(function (paraType) {
-    paraType.innerText = "-";
-  });
-  Array.from(paraNames).forEach(function (paraName) {
-    paraName.innerText = "-";
-  });
+  var toClear = [];
+  toClear.push(document.getElementsByClassName("paraType"));
+  toClear.push(document.getElementsByClassName("paraName"));
+  toClear.push(document.getElementsByClassName("paraTime"));
+  toClear.push(document.getElementsByClassName("paraTeacher"));
+  toClear.push(document.getElementsByClassName("paraClassroom"));
+
+  for (var _i = 0, _toClear = toClear; _i < _toClear.length; _i++) {
+    var arrays = _toClear[_i];
+    Array.from(arrays).forEach(function (el) {
+      el.innerText = " ";
+    });
+  }
 }
 
 function changeWeek() {
-  isWeekEven = !isWeekEven;
-  console.log(isWeekEven);
-  var weekStatus = document.getElementById("week-status");
+  isWeekEven = !isWeekEven; // console.log(isWeekEven);
+
   clearSchedule();
-
-  if (isWeekEven) {
-    weekStatus.innerText = "Неделя Четная";
-    console.log("Неделя Четная");
-  } else {
-    weekStatus.innerText = "Неделя Нечетная";
-    console.log("Неделя Нечетная");
-  }
-
+  changeWeekDisplay();
   updateSchedule();
 }
 
-var isWeekEven = checkWeek();
+function changeWeekDisplay() {
+  var weekStatus = document.getElementById("week-status");
+
+  if (isWeekEven) {
+    weekStatus.innerText = "Неделя Четная"; // console.log("Неделя Четная");
+  } else {
+    weekStatus.innerText = "Неделя Нечетная"; // console.log("Неделя Нечетная");
+  }
+}
+
 updateSchedule();
-},{"parse/node":"node_modules/parse/node.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"parse/node":"node_modules/parse/node.js"}],"C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -77110,7 +77149,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59834" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52992" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -77286,5 +77325,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["../../../AppData/Roaming/npm/node_modules/parcel/src/builtins/hmr-runtime.js","main.js"], null)
+},{}]},{},["C:/Users/Mage/AppData/Roaming/npm/node_modules/parcel/src/builtins/hmr-runtime.js","main.js"], null)
 //# sourceMappingURL=/main.js.map
