@@ -72,7 +72,7 @@ function updateSchedule() {
             }
         }, 
         (error) => {
-            if (typeof document !== 'undefined') document.write(`Error while fetching schedule: ${JSON.stringify(error)}`);
+            if (typeof document !== 'undefined') console.log(`Error while fetching schedule: ${JSON.stringify(error)}`);
             console.error('Error while fetching schedule', error);
         }
     );
